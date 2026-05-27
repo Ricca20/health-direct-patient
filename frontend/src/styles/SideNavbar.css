@@ -1,0 +1,435 @@
+/* ============================================================ */
+/* UNUSED RULES (commented out – not referenced in JSX)        */
+/* ============================================================ */
+
+/* .mobile-toggle-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .mobile-toggle-header {
+    padding: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .mobile-toggle-header {
+    display: none;
+  }
+}
+
+.mobile-toggle-left {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.mobile-toggle-btn {
+  padding: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-toggle-icon {
+  font-size: 1.875rem;
+}
+
+.mobile-logo {
+  height: 24px;
+}
+
+.mobile-toggle-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.mobile-logout-btn {
+  padding: 8px;
+  background-color: #195e83;
+  color: white;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.mobile-logout-btn:hover {
+  background-color: #0f4562;
+}
+
+.language-select {
+  border: 1px solid #d1d5db;
+  background-color: #195e83;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 12px;
+  float: right;
+  font-weight: 600;
+  font-size: 1.25rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.language-select:hover {
+  background-color: #0f4562;
+}
+
+@media (min-width: 1280px) {
+  .language-select {
+    display: none;
+  }
+}
+
+.language-option {
+  font-family: 'Quicksand', sans-serif;
+} */
+
+/* ============================================================ */
+/* USED RULES (active – keep as is)                            */
+/* ============================================================ */
+/* Mobile Backdrop (unchanged) */
+.mobile-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+@media (min-width: 1280px) {
+  .mobile-backdrop {
+    display: none;
+  }
+}
+
+/* ========== MOBILE BOTTOM NAVIGATION (icons only) ========== */
+.mobile-bottom-nav {
+  position: fixed;
+  bottom: 16px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+.mobile-bottom-container {
+  width: 92%;
+  max-width: 480px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Each nav link */
+.mobile-bottom-container .nav-link {
+  flex: 1;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Button inside link */
+.mobile-bottom-container .nav-button {
+  flex-direction: column;
+  padding: 8px 4px;
+  margin-bottom: 0;
+  border-radius: 20px;
+  background: transparent;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+/* Hide the label text on mobile */
+.mobile-bottom-container .nav-label {
+  display: none;
+}
+
+/* Icon styling */
+.mobile-bottom-container .nav-icon {
+  font-size: 1.75rem; /* 28px */
+  margin: 0;
+  transition: transform 0.2s, color 0.2s;
+  color: #9ca3af; /* gray-400 */
+}
+
+/* Active icon – change color and slightly enlarge */
+.mobile-bottom-container .nav-button-active .nav-icon {
+  color: #195e83; /* your brand color */
+  transform: scale(1.1);
+}
+
+/* Hover effect (optional) */
+.mobile-bottom-container .nav-button:hover .nav-icon {
+  transform: scale(1.05);
+  color: #13597f;
+}
+
+/* Optional: add a small indicator for active state (dot or line) */
+.mobile-bottom-container .nav-button-active {
+  position: relative;
+}
+
+.mobile-bottom-container .nav-button-active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 24px;
+  height: 3px;
+  background-color: #195e83;
+  border-radius: 2px;
+}
+
+/* Hide desktop sidebar on mobile (already there) */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+/* Hide bottom nav on desktop (already there) */
+@media (min-width: 769px) {
+  .mobile-bottom-nav {
+    display: none;
+  }
+}
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  z-index: 40;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: white;
+  /* border-right: 1px solid #e5e7eb; */
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  transition: all 0.3s ease-in-out;
+  /* box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);  */
+  width: 75vw;
+  max-width: 320px;
+}
+
+@media (min-width: 1024px) {
+  .sidebar {
+    top: 90px;
+    height: calc(100vh - 104px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .sidebar {
+    width: 64px;
+    transform: translateX(0);
+  }
+
+  .sidebar:hover {
+    width: 320px;
+  }
+}
+
+.sidebar-closed {
+  transform: translateX(-100%);
+}
+
+.sidebar-open {
+  transform: translateX(0);
+}
+
+@media (min-width: 1280px) {
+  .sidebar-closed {
+    transform: translateX(0);
+  }
+}
+
+/* Mobile Close Button */
+.mobile-close-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+}
+
+@media (min-width: 1280px) {
+  .mobile-close-container {
+    display: none;
+  }
+}
+
+.mobile-close-btn {
+  padding: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile-close-icon {
+  font-size: 1.875rem;
+}
+
+/* Navigation */
+.sidebar-nav {
+  flex: 1;
+  overflow-x: hidden;
+  padding: 8px 0;
+  overflow-y: auto;
+  /* NEW: push nav to bottom on mobile (below 1280px) */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* On desktop (≥1280px) we want nav at the top again */
+@media (min-width: 1280px) {
+  .sidebar-nav {
+    justify-content: flex-start;
+  }
+}
+
+.nav-container {
+  padding: 0 16px;
+  padding-right: 24px;
+}
+
+@media (min-width: 1280px) {
+  .nav-container {
+    padding: 0 8px;
+  }
+}
+
+.nav-link {
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 12px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  background: none;
+  border: none;
+}
+
+.nav-button:hover {
+  background-color: #ebebec;
+}
+
+.nav-button-active {
+  background-color: #ebebec;
+}
+
+.nav-icon-container {
+  flex-shrink: 0;
+}
+
+.nav-icon {
+  color: #195e83;
+  font-size: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.sidebar:hover .nav-icon {
+  transform: scale(1.1);
+}
+
+.nav-label {
+  font-size: 1.25rem;
+  white-space: nowrap;
+  font-weight: 500;
+  transition: all 0.2s;
+  margin-left: 16px;
+}
+
+@media (min-width: 1280px) {
+  .nav-label {
+    font-size: 1rem;
+    display: none;
+  }
+
+  .sidebar:hover .nav-label {
+    display: inline;
+  }
+}
+
+.nav-label-active {
+  color: #195e83;
+  font-weight: 700;
+}
+
+.nav-label-inactive {
+  color: #374151;
+}
+
+/* Social Links */
+.social-container {
+  padding: 24px;
+  border-top: 1px solid #f3f4f6;
+  transition: all 0.5s;
+}
+
+@media (min-width: 1024px) {
+  .social-container {
+    transform: translateX(-144px);
+  }
+
+  .sidebar:hover .social-container {
+    transform: translateX(0);
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social-link {
+  padding: 4px;
+  border-radius: 8px;
+  color: white;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.social-icon {
+  font-size: 1.875rem;
+}

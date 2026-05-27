@@ -1,0 +1,93 @@
+.services-card {
+  background: linear-gradient(to bottom right, #c36aa7, #1c5e83);
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  color: white;
+  grid-column: span 2 / span 2;
+}
+
+@media (min-width: 1024px) {
+  .services-card {
+    grid-column: span 5 / span 5;
+  }
+}
+
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.services-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.services-subtitle {
+  font-size: 0.875rem;
+  color: #eddcf7; /* close to Tailwind's text-purple-100 */
+}
+
+.icon-right {
+  color: white;
+}
+
+.services-list {
+  max-height: 26rem;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+.services-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.services-list::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.service-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: #ffffff;
+  color: #0c557c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  margin-bottom: 0.75rem;
+}
+
+.service-button:hover {
+  background-color: #f1f5f9;
+}
+
+.service-icon {
+  background-color: #195e83;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-white {
+  color: white;
+}
+
+.service-title {
+  flex-grow: 1;
+}
+
+@media (max-width: 640px){
+  .services-header {
+  flex-direction: column;
+  gap: 10px;
+}
+
+}

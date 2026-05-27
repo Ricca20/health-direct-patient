@@ -1,0 +1,1172 @@
+{
+  "landing": {
+    "heading": "Your Partner in Personalized Health",
+    "description": "Access your records and connect with your care team in one secure place. We support every step of your health journey.",
+    "prompt": "Already have an account or ready to join?",
+    "signin": "Sign In →",
+    "register": "Register →",
+    "without_login": "Get Start →"
+  },
+  "signup": {
+    "subtitle": "Register to access your dashboard",
+    "createAccount": "CREATE ACCOUNT",
+    "tabs": {
+      "email": "Email",
+      "otp": "OTP"
+    },
+    "emailLabel": "Email",
+    "emailPlaceholder": "Your Email",
+    "emailError": "Please enter a valid email address",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter Password",
+    "passwordLengthError": "Password must be at least 8 characters long",
+    "passwordSymbolError": "Password must contain at least one symbol",
+    "passwordNumberError": "Password must contain at least one number",
+    "passwordUppercaseError": "Password must contain at least one uppercase letter",
+    "passwordLowercaseError": "Password must contain at least one lowercase letter",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm Password",
+    "passwordMismatchError": "Passwords do not match",
+    "acceptTerms": "I accept the",
+    "termsConditions": "Terms & Conditions",
+    "signUpButton": "SIGN UP",
+    "creatingAccount": "CREATING...",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginLink": "Login",
+    "formError": "Please fix all errors and accept the Terms & Conditions before signing up",
+    "signupSuccess": "Sign-up successful! Please sign in.",
+    "signupError": "Sign-up failed. Please try again.",
+    "firstNameLabel": "First Name",
+    "firstNamePlaceholder": "Enter your first name",
+    "firstNameError": "Please enter a valid first name",
+    "middleNameLabel": "Middle Name",
+    "middleNamePlaceholder": "Enter your middle name (optional)",
+    "lastNameLabel": "Last Name",
+    "lastNamePlaceholder": "Enter your last name",
+    "lastNameError": "Please enter a valid last name",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "phoneError": "Please enter a valid phone number",
+    "otp": {
+      "title": "Create Account with Phone",
+      "subtitle": "Sign up using your phone number",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+7 9XX XXXX XX XX",
+      "otpLabel": "Verification Code",
+      "otpPlaceholder": "123456",
+      "sendOtp": "Send OTP",
+      "sending": "Sending...",
+      "otpSent": "OTP sent successfully!",
+      "register": "Register with OTP",
+      "verify": "Verify OTP",
+      "verifying": "Verifying...",
+      "changeNumber": "Change number",
+      "resend": "Resend OTP",
+      "sendFailed": "Failed to send OTP",
+      "verifyFailed": "Invalid OTP or expired",
+      "phoneRequired": "Phone number is required",
+      "invalidPhone": "Please enter a valid phone number (7-15 digits, optional +)",
+      "otpRequired": "OTP code is required",
+      "invalidOtp": "OTP must be 4-6 digits",
+      "signupSuccess": "Account created successfully!",
+      "titleShort": "Welcome Back",
+      "subtitleShort": "Sign in with your phone number"
+    }
+  },
+  "dashboard": {
+    "search_placeholder_doctors": "Search doctors...",
+    "search_placeholder_specialty": "Search specialty...",
+    "top_rated_doctors": "Top Doctors",
+    "view_all": "View All →",
+    "book_appointment": "Book Appointment",
+    "contact_for_fee": "Contact for fee",
+    "photo_not_available": "Photo not available",
+    "special_offer": "Special Offer",
+    "check_back_soon": "Check back soon for amazing discounts!",
+    "learn_more": "Learn More",
+    "no_doctors": "No doctors available at the moment.",
+    "years_exp": "yrs exp",
+    "general_physician": "General Physician",
+    "expert_badge": "Expert",
+    "specialist_categories": "Specialist Categories",
+    "err_load_promos": "Failed to load promotions",
+    "err_load_doctors": "Failed to load doctors"
+  },
+  "doctors": {
+    "page_title": "Our Doctors",
+    "subtitle": "Find the best specialists for your health",
+    "search_placeholder": "Search by name or specialty...",
+    "filter": "Filter",
+    "clear_filters": "Clear filters",
+    "specialty": "Specialty",
+    "all_specialties": "All Specialties",
+    "doctors_found": "doctors found",
+    "no_doctors_found": "No doctors match your criteria.",
+    "fetch_error": "Failed to load doctors. Please try again later.",
+    "login_required": "Please log in to view doctors.",
+    "loading_more": "Loading more doctors...",
+    "end_of_results": "You have reached the end.",
+    "expert_badge": "Expert",
+    "years_exp": "years",
+    "online": "Online",
+    "offline": "Offline",
+    "book_appointment": "Book Appointment"
+  },
+  "specialists": {
+    "page_title": "Find Your Specialist",
+    "page_description": "Discover the right medical specialist from our curated team of experts.",
+    "search_placeholder": "Search specialists...",
+    "no_results": "No specialists match your search.",
+    "specialist_count": "specialists",
+    "categories": {
+      "cardiology": {
+        "title": "Cardiology",
+        "subtitle": "128 Senior Specialists"
+      },
+      "neurology": {
+        "title": "Neurology",
+        "subtitle": "84 Specialists"
+      },
+      "pediatrics": {
+        "title": "Pediatrics",
+        "subtitle": "210 Specialists"
+      },
+      "oncology": {
+        "title": "Oncology",
+        "subtitle": "56 World-Class Experts"
+      },
+      "dental": {
+        "title": "Dental Care",
+        "subtitle": "95 Specialists"
+      },
+      "dermatology": {
+        "title": "Dermatology",
+        "subtitle": "42 Specialists"
+      },
+      "ent": {
+        "title": "ENT",
+        "subtitle": "78 Specialists"
+      },
+      "ophthalmology": {
+        "title": "Ophthalmology",
+        "subtitle": "64 Specialists"
+      },
+      "orthopedics": {
+        "title": "Orthopedics",
+        "subtitle": "57 Specialists"
+      },
+      "general_surgery": {
+        "title": "General Surgery",
+        "subtitle": "Expert surgical care"
+      }
+    }
+  },
+  "doctorDetails": {
+    "tabs": {
+      "about": "About",
+      "experiences": "Experiences",
+      "reviews": "Reviews"
+    },
+    "no_about": "No additional information provided.",
+    "no_experiences": "No experience or education details available.",
+    "no_reviews": "No reviews yet. Be the first to leave a review!",
+    "anonymous": "Anonymous",
+    "years_exp": "years",
+    "fee": "Fee",
+    "online": "Online",
+    "offline": "Offline",
+    "about": "About",
+    "education": "Education",
+    "work_experience": "Work Experience",
+    "schedules": "Schedules",
+    "select_date_first": "Select a date first",
+    "weekdays": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "timePeriods": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening",
+      "night": "Night"
+    },
+    "book_appointment": "Book Appointment",
+    "booking": "Booking...",
+    "booking_success": "Appointment booked successfully!",
+    "booking_error": "Failed to book. Please try again.",
+    "not_found": "Doctor not found",
+    "fetch_error": "Failed to load doctor details",
+    "login_required": "Please log in to view doctor details",
+    "select_date_time": "Please select both date and time"
+  },
+
+  "header": {
+    "welcome": "Welcome",
+    "mr": "Mr.",
+    "mrs": "Mrs.",
+    "mx": "Mx.",
+    "user": "User",
+    "subtitle": "How can we assist you today?",
+    "signin":"Sign in"
+  },
+  "side_navbar": {
+    "home": "Home",
+    "doctors": "Doctors",
+    "specialist": "Specialist",
+    "book_appointments": "Book Appointments",
+    "early_detection": "Early Detection",
+    "payments":"My Payments",
+    "profile": "Profile"
+  },
+  "profile_card": {
+    "name": "User Name",
+    "ageUnknown": "Age not specified",
+    "phoneUnknown": "Phone not specified",
+    "emailUnknown": "Email not specified",
+    "years": "years"
+  },
+  "payments_card": {
+    "title": "Your Payments",
+    "subtitle": "See your past payments",
+    "preview_button": "Click here to preview",
+    "previous_payments": "See Previous Payments",
+    "payment1": {
+      "title": "Pathologica Service",
+      "status": "Invoice generated"
+    }
+  },
+  "discounts_card": {
+    "text": " Avail <br /> 20% Discount <br /> on your first  <br /> Visit",
+    "button": "Book Now"
+  },
+  "appointments_card": {
+    "title": "Your Appointments",
+    "subtitle": "See all your appointments here",
+    "button": "See Previous Appointments",
+    "appointment1": {
+      "title": "Pathologica Service",
+      "date": "April 10, 2025"
+    },
+    "appointment2": {
+      "title": "Oncosurgery",
+      "date": "April 21, 2025"
+    },
+    "appointment3": {
+      "title": "Oncosurgery",
+      "date": "April 21, 2025"
+    }
+  },
+  "services_card": {
+    "title": "Order a Service",
+    "subtitle": "Select from the below services",
+    "service1": "Individual early diagnosis of the disease",
+    "service2": "Pathologica service",
+    "service3": "Molecular Coucil",
+    "service4": "Face-to-face and remote consultations",
+    "service5": "International Tumor Board",
+    "service6": "Expert Review of CT, MRI PET-CT"
+  },
+  "appointments": {
+    "view": "View",
+    "download": "Download",
+    "title": "Your Service Orders",
+    "subtitle": "View and manage your service orders",
+    "search_placeholder": "Search by service name",
+    "filter_all": "All Statuses",
+    "date_from": "From Date",
+    "date_to": "To Date",
+    "no_results": "No orders found",
+    "loading": "Loading orders...",
+    "button": "Order Service",
+    "date": "Date",
+    "time": "Time",
+    "view_details": "View Details",
+    "no_service_name": "No Service Name",
+    "filter_label": "Filter Options",
+    "status_label": "Status",
+    "date_range_label": "Date Range",
+    "apply_filters": "Apply Filters",
+    "appointmentId": "Appointment ID",
+    "no_appointments_available": "No appointments available",
+
+    "noTests": "No tests ordered yet.",
+    "noResult": "Upload Result",
+    "testResults": "Tests & Results",
+    "addTest": "Add Test",
+    "selectTests": "Select Tests to Add",
+    "deSelectAll": "Deselect All",
+    "selectAll": "Select All",
+    "alreadySelected": "Already added",
+    "testSelected": "test(s) selected",
+    "addSelectedTests": "Add Selected Tests",
+    "otherAppointments": "Other related Appointments",
+
+    "status": {
+      "label": "Status",
+      "pending": "Pending",
+      "processing": "Processing",
+      "completed": "Completed",
+      "failed": "Failed"
+    }
+  },
+  "payments": {
+    "title": "My Payments",
+    "subtitle": "Your invoices & payment history",
+    "tabs": {
+      "all": "All"
+    },
+    "status": {
+      "pending": "Pending",
+      "success": "Success",
+      "failed": "Failed",
+      "new": "New",
+      "invoice_sent": "Invoice Sent",
+      "free": "Free"
+    },
+    "method": "METHOD",
+    "linked_enrollments": "Linked Enrollments",
+    "course_name": "The Path to Health: 7 Lessons for Beginners",
+    "pay_now": "Pay Now",
+    "payment_error": "Could not process payment. Please try again.",
+    "no_results": "No payments found."
+  },
+
+  "profile": {
+    "title": "Service Recipient Details",
+    "surname": "Surname",
+    "surnamePlaceholder": "Enter Surname",
+    "name": "Name",
+    "namePlaceholder": "Enter Your Name",
+    "patronymicName": "Patronymic Name",
+    "patronymicNamePlaceholder": "Enter Patronymic Name",
+    "gender": "Gender",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "genderOther": "Other",
+    "dateOfBirth": "Date of Birth",
+    "phoneNumber": "Phone Number",
+    "phoneNumberPlaceholder": "+1234567890",
+    "additionalPhone": "Additional Phone",
+    "additionalPhonePlaceholder": "+1234567890",
+    "email": "Email",
+    "emailPlaceholder": "Your Email",
+    "changePhoto": "Click to change photo",
+    "saveButton": "Save Changes",
+    "saveSuccess": "Profile saved successfully!",
+    "saveFailed": "Failed to save profile",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "middleName": "Middle Name",
+    "comments": "Comments",
+    "firstNamePlaceholder": "First Name",
+    "lastNamePlaceholder": "Last Name",
+    "middleNamePlaceholder": "Middle Name",
+    "commentsPlaceholder": "Comments",
+    "notes": "Notes",
+    "notesPlaceholder": "Notes",
+    "patientId": "Patient ID",
+    "patientIdPrefix": "SOF/Mos/Pat-",
+    "stats": {
+      "totalAppointments": "My Appointments",
+      "totalAppointmentsDescription": "Total appointments made",
+      "totalPayments": "Total Payments",
+      "totalPaymentsDescription": "Total amount paid",
+      "upcomingAppointments": "Upcoming Appointments",
+      "upcomingAppointmentsDescription": "Appointments scheduled soon"
+    },
+    "footer": {
+      "myApplications": "My Applications",
+      "myApplicationsDesc": "View your appointments and consultation history",
+      "myPayments": "My Payments",
+      "myPaymentsDesc": "View invoices and payment history",
+      "myDevices": "My Devices",
+      "myDevicesDesc": "Manage trusted devices and active sessions",
+      "logoutDesc": "Sign out from your current account"
+    },
+    "logout": "Logout",
+    "uploadSuccess": "Profile uploaded successfully",
+    "uploadFailed": "Profile uploaded Failed",
+    "sections": {
+      "basicInformation": "Basic Information",
+      "contacts": "Contacts",
+      "documents": "Documents",
+      "address": "Address",
+      "personalData": "Personal Data",
+      "disability": "Disability",
+      "additionalNotes": "Additional Notes"
+    },
+    "common": {
+      "add": "Add",
+      "remove": "Remove",
+      "noRecordsAddedYet": "No records added yet.",
+      "notSet": "Not Set",
+      "primary": "Primary",
+      "secondary": "Secondary"
+    },
+    "diseaseRecords": {
+      "title": "Disease Records",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "diagnosis": "Diagnosis",
+      "icdCode": "ICD Code",
+      "doctor": "Doctor"
+    },
+    "finalDiagnosisRecords": {
+      "title": "Final Diagnosis Records",
+      "date": "Date",
+      "diagnosis": "Diagnosis",
+      "icdCode": "ICD Code",
+      "primary": "Primary/Secondary",
+      "doctorName": "Doctor Name",
+      "jobTitle": "Job Title",
+      "speciality": "Speciality"
+    },
+    "radiationDoseRecords": {
+      "title": "Radiation Dose Records",
+      "date": "Date",
+      "researchType": "Research Type",
+      "effectiveDose": "Effective Dose",
+      "note": "Note"
+    },
+    "legalRepresentatives": {
+      "title": "Legal Representatives",
+      "lastName": "Last Name",
+      "firstName": "First Name",
+      "middleName": "Middle Name",
+      "isCurrent": "Is Current",
+      "birthday": "Birthday",
+      "gender": "Gender",
+      "relationship": "Relationship",
+      "attitudeToPatient": "Attitude To Patient",
+      "documentOfAuthority": "Document Of Authority",
+      "documentType": "Document Type",
+      "series": "Series",
+      "number": "Number",
+      "whenIssued": "When Issued",
+      "issuedBy": "Issued By",
+      "snils": "SNILS",
+      "address": "Address",
+      "addressType": "Address Type",
+      "tenant": "Tenant",
+      "subjectOfRussia": "Subject Of Russia",
+      "district": "District",
+      "city": "City",
+      "settlement": "Settlement",
+      "street": "Street",
+      "house": "House",
+      "apartment": "Apartment",
+      "state": "State"
+    },
+    "maxId": "MAX ID",
+    "telegramNickname": "Telegram Nickname",
+    "telegramId": "Telegram ID",
+    "instagram": "Instagram",
+    "vk": "VK",
+    "facebook": "Facebook",
+    "ok": "Odnoklassniki",
+    "contactPerson": "Emergency Contact Name",
+    "contactPersonPhone": "Emergency Contact Phone",
+    "subscribedToNewsletter": "Subscribed To Newsletter",
+    "egiszEnabled": "EGISZ Enabled",
+    "cmip": "CMIP",
+    "cmipDate": "CMIP Date",
+    "cmipOrgCode": "CMIP Organization Code",
+    "snils": "SNILS",
+    "medInsuranceOrg": "Medical Insurance Organization",
+    "socialSupportCode": "Social Support Code",
+    "citizenship": "Citizenship",
+    "documentType": "Document Type",
+    "documentSeries": "Document Series",
+    "documentNumber": "Document Number",
+    "documentIssuedDate": "Document Issued Date",
+    "departmentCode": "Department Code",
+    "documentIssuedBy": "Document Issued By",
+    "inn": "INN",
+    "addressType": "Address Type",
+    "region": "Region",
+    "district": "District",
+    "city": "City",
+    "settlement": "Settlement",
+    "street": "Street",
+    "house": "House",
+    "terrain": "Terrain",
+    "apartment": "Apartment",
+    "postcode": "Postcode",
+    "geocoordinates": "Geocoordinates",
+    "registrationChange": "Registration Change",
+    "maritalStatus": "Marital Status",
+    "education": "Education",
+    "employment": "Employment",
+    "placeOfWork": "Place Of Work",
+    "workSpecialty": "Work Specialty",
+    "changePlaceOfWork": "Change Place Of Work",
+    "changeOfPosition": "Change Of Position",
+    "disability": "Disability",
+    "disabilityFrom": "Disability From",
+    "disabilityTo": "Disability To",
+    "disabilityIndefinitely": "Disability Indefinitely",
+    "invalidGroup": "Invalid Group",
+    "disabilityType": "Disability Type",
+    "disabilityPrimaryRepeated": "Disability Primary/Repeated",
+    "notificationLanguage": "Notification Language",
+    "errors": {
+      "fixErrors": "Please fix all errors before saving",
+      "surname": "Surname is required",
+      "name": "Name is required",
+      "gender": "Gender is required",
+      "dateOfBirth": "Date of birth is required",
+      "invalidDateOfBirth": "Invalid date of birth",
+      "futureDateOfBirth": "Date of birth cannot be in the future",
+      "phoneNumber": "Phone number is required",
+      "invalidPhoneNumber": "Invalid phone number format",
+      "invalidAdditionalPhone": "Invalid additional phone number format",
+      "email": "Email is required",
+      "invalidEmail": "Invalid email format",
+      "imageSize": "Maximum 5MB File limit",
+      "invalidImage": "Invalid file format"
+    }
+  },
+  "profilePrompt": {
+    "title": "Complete Your Profile",
+    "message": "Please complete your profile to access all features.",
+    "completeNow": "Complete Now",
+    "later": "Later"
+  },
+  "appointmentDetails": {
+    "back": "Back to Appointments",
+    "appointmentDetails": "Appointment Details",
+    "subtitle": "Comprehensive appointment details and actions in one place.",
+    "application_id": "Appointment ID",
+    "date": "Date",
+    "time": "Time",
+    "service": "Service",
+    "mode": "Mode",
+    "status": "Status",
+    "entranceDiagnosis": "Entrance Diagnosis",
+    "briefHistory": "Brief History",
+    "documents": "Documents",
+    "patient_email": "Patient Email",
+    "doctor_email": "Doctor Email",
+    "online_meeting": "Online meeting",
+    "join_meeting_hint": "Use this link at the appointment start time.",
+    "preparing_meeting": "Preparing...",
+    "join_now": "Join Meeting",
+    "view": "View",
+    "download": "Download",
+    "open": "Open",
+    "prescription": "Prescription",
+    "loading": "Loading...",
+    "error": "Failed to load appointment.",
+    "noDetails": "No details found.",
+    "no_documents": "No documents uploaded.",
+    "no_tests": "No tests available.",
+    "no_data": "No data provided",
+    "follow_up_title": "Follow-up Appointment",
+    "follow_up_text": "A follow-up appointment has been recommended by your doctor.",
+    "book_follow_up": "Book Follow-up",
+    "follow_up_id": "Follow-up ID:",
+    "uploaded": "Uploaded:",
+    "service_consultation": "Consultation",
+    "service_general_consultation": "General Consultation",
+    "service_dermatology": "Dermatology"
+  },
+  "notif_box": {
+    "common": "Common",
+    "personal_disabled": "Personal notifications are currently disabled",
+    "loading": "Loading notifications...",
+    "no_notifications": "No notifications found",
+    "title": "Notifications",
+    "personal": "Personal"
+  },
+  "payment_success": {
+    "title": "Payment Successful!",
+    "message": "Appointment {{id}} has been confirmed.",
+    "details_title": "Appointment Details",
+    "doctor": "Doctor",
+    "date": "Date",
+    "time": "Time",
+    "service": "Service",
+    "close_button": "Close"
+  },
+  "existingAppointments": {
+    "title": "Your Existing Appointments",
+    "noAppointments": "You don't have any existing appointments.",
+    "autoClose": "This window will close automatically...",
+    "infoMessage": "You already have appointments in this specialty. Please cancel all existing appointments before booking a new one.",
+    "allCancelled": "All appointments have been successfully cancelled!",
+    "close": "Close",
+    "refreshing": "Refreshing appointments...",
+    "appointmentItem": {
+      "specialty": "Cardiologist",
+      "date": "Date",
+      "time": "Time",
+      "viewDetails": "View Details",
+      "cancel": "Cancel Appointment",
+      "cancelling": "Cancelling...",
+      "cancelConfirm": "Are you sure you want to cancel this appointment?",
+      "confirmCancel": "Yes, Cancel It",
+      "keepAppointment": "Keep Appointment",
+      "status": {
+        "confirmed": "Your appointment is confirmed",
+        "unconfirmed": "Your appointment needs confirmation",
+        "awaitingPayment": "Waiting for payment to be processed",
+        "cancelled": "This appointment has been cancelled",
+        "unknown": "Unknown status"
+      }
+    }
+  },
+  "inface_remote_consultations": {
+    "specialty_label": "Choose Specialty",
+    "choose_specialty": "-- Choose Specialty --",
+    "choose_doctor": "-- Choose Doctor --",
+    "doctor_label": "Choose Doctor",
+    "appointment_mode_label": "Appointment Mode",
+    "select_placeholder": "-- Select Consultation Type --",
+    "select_doctor_first": "Select a doctor first",
+    "offline_option": "In-Face Consultation",
+    "online_option": "Remote Consultation",
+    "clinic_label": "Clinic",
+    "clinic_option_1": "Clinic 1",
+    "clinic_option_2": "Clinic 2 (Coming soon)",
+    "booking_date": "Schedule Date"
+  },
+  "service_form": {
+    "booking_time": "Schedule Time",
+    "no_slots": "No available time slots",
+    "slot_labels": {
+      "your_appointment_unconfirmed": "Your Appointment (Unconfirmed)",
+      "your_appointment_confirmed": "Your Appointment (Confirmed)",
+      "pay_now_warning": "⚠️ This slot is already reserved. You can only confirm it if you pay now."
+    }
+  },
+  "dashboard_header": {
+    "welcome": "Welcome",
+    "greeting": "How're you feeling today?",
+    "placeholder_name": "Mr/Mrs Placeholder",
+    "language_tooltip": "Change Language",
+    "notifications_tooltip": "Notifications",
+    "logout_tooltip": "Logout",
+    "language_alert": "Language switch coming soon",
+    "notifications_alert": "Notifications coming soon"
+  },
+  "consultations": {
+    "blocker": {
+      "title": "Booking Blocked",
+      "message": "You have existing appointments in this specialty. Please cancel all appointments first.",
+      "view_appointments": "View Appointments"
+    }
+  },
+  "appointment": {
+    "selectFollowUp": "Select Follow-up Appointment",
+    "inFace": "In-Face Consultation",
+    "remote": "Remote Consultation",
+    "date": "Date",
+    "uploadedAt": "Uploaded At: "
+  },
+  "common": {
+    "select": "Select Consultation Type",
+    "cancel": "Cancel",
+    "proceed": "Proceed to Payment",
+    "back": "Back",
+    "confirm": "Confirm Appointment"
+  },
+  "order_service": {
+    "services_title": "Order Service",
+    "services_subtitle": "To open the description of the service, find out the cost, send an application - click on the service.",
+    "payment_options": "Payment Options",
+    "online_payment_info": "This slot requires immediate payment to confirm your appointment.",
+    "offline_payment_info": "You can pay now to confirm or at the clinic.",
+    "pay_now": "Pay Now",
+    "pay_at_clinic": "Pay at Clinic"
+  },
+  "follow_up_modal": {
+    "loading_slots": "Loading available slots...",
+    "appointment_details": "Appointment Details",
+    "payment_secure": "Secure online payment",
+    "payment_clinic": "Pay when you arrive",
+    "processing": "Processing...",
+    "slot_warning": "⚠️ This slot is already reserved. You can only confirm it if you pay now."
+  },
+  "payment_card": {
+    "appointment_id": "Appointment ID",
+    "payment_status": "Payment Status",
+    "paid": "Paid",
+    "pay_now": "Pay Now",
+    "status": {
+      "paid": "Paid",
+      "completed": "Completed",
+      "pending": "Pending",
+      "failed": "Failed",
+      "processing": "Processing"
+    },
+    "paymentSummary": "Payment Summary",
+    "items": "Items",
+    "subtotal": "Subtotal",
+    "tax": "Tax (5%)",
+    "discount": "Discount",
+    "total": "Total",
+    "confirmPay": "Confirm & Pay",
+    "close": "Close"
+  },
+  "signin": {
+    "subtitle": "Sign in to access your dashboard",
+    "backToHome": "Back to Home",
+    "title": "LOGIN",
+    "tabs": {
+      "email": "Email",
+      "otp": "OTP"
+    },
+    "emailLabel": "Email",
+    "emailPlaceholder": "Your Email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter Password",
+    "errors": {
+      "email": "Please enter a valid email address",
+      "form": "Please provide a valid email and password",
+      "login": "Login failed",
+      "invalidCredentials": "Invalid Credentials"
+    },
+    "rememberMe": "Remember Me",
+    "forgotPassword": "Forgot Password?",
+    "login": "LOGIN",
+    "footerText": "Don't have an account?",
+    "footerLink": "Create an account",
+    "loginSuccess": "Login successful!",
+    "otp": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in with your phone number",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+7 9XX XXXX XX XX",
+      "otpLabel": "Verification Code",
+      "otpPlaceholder": "123456",
+      "sendOtp": "Send OTP",
+      "sending": "Sending...",
+      "otpSent": "OTP sent successfully!",
+      "verify": "Sign In with OTP",
+      "verifying": "Verifying...",
+      "changeNumber": "Change number",
+      "resend": "Resend OTP",
+      "sendFailed": "Failed to send OTP",
+      "verifyFailed": "Invalid OTP or expired",
+      "phoneRequired": "Phone number is required",
+      "invalidPhone": "Please enter a valid phone number (7-15 digits, optional +)",
+      "otpRequired": "OTP code is required",
+      "invalidOtp": "OTP must be 4-6 digits"
+    }
+  },
+  "forgotPassword": {
+    "title": "Reset Password",
+    "instructions": "Enter your email address and we'll send you a password reset link",
+    "back": "Back to Login",
+    "send": "Send Reset Link",
+    "sending": "Sending...",
+    "backToLogin": "Back to Login",
+    "success": {
+      "title": "Check Your Email",
+      "message": "We've sent a password reset link to {email}",
+      "emailSent": "A password reset email has been sent.",
+      "note": "If you don't see the email, check your spam folder."
+    },
+    "errors": {
+      "emailRequired": "Please enter a valid email address",
+      "general": "Failed to send reset email"
+    }
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "instructions": "Enter a new password for",
+    "newPasswordLabel": "New Password",
+    "newPasswordPlaceholder": "Enter new password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your new password",
+    "button": "Reset Password",
+    "resetting": "Resetting...",
+    "backToLogin": "Back to Login",
+    "success": "Password reset successfully!",
+    "invalidTokenTitle": "Invalid Reset Link",
+    "errors": {
+      "form": "Please fix the form errors",
+      "passwordMismatch": "Passwords do not match",
+      "general": "Failed to reset password",
+      "invalidToken": "Invalid or expired reset link"
+    }
+  },
+  "meeting_room": {
+    "title": "Meeting Room",
+    "back": "Back",
+    "refresh": "Refresh",
+    "copy": "Copy link",
+    "open_new_tab": "Open in new tab",
+    "connecting": "Connecting to the meeting...",
+    "load_error": "Failed to load meeting. Try refresh or open in new tab.",
+    "missing_title": "Meeting link is missing",
+    "missing_desc": "Please return and generate a meeting link first."
+  },
+  "bookAppointment": {
+    "promo_text": "Book your appointment with top specialists in minutes.",
+    "promo_early_text": "Early access booking for selected specialists.",
+    "promo_book_now": "Book now",
+    "promo_learn_more": "Learn more",
+    "promo_filter_label": "Special promo",
+    "step_select": "Select",
+    "step_verification": "Verification",
+    "step_confirm": "Confirm",
+    "search_specialty": "Search specialty...",
+    "search_doctor": "Search doctor...",
+    "no_results": "No results found.",
+    "no_doctors": "No doctors available.",
+    "select_doctor_hint": "Please select a doctor to view available slots.",
+    "available_slots": "Available slots",
+    "notice_title": "Please arrive on time",
+    "notice_arrive": "Arrive at least 10 minutes before your appointment.",
+    "notice_call": "If you have questions, call",
+    "notice_thanks": "Thank you for choosing our service.",
+    "next": "Next",
+    "phone_title": "Phone Verification",
+    "phone_sub": "Enter your phone number to receive a verification code.",
+    "phone_placeholder": "Enter phone number",
+    "otp_placeholder": "Enter OTP code",
+    "send_otp": "Send OTP",
+    "verify_continue": "Verify & continue",
+    "sending": "Sending...",
+    "resend_otp": "Resend OTP",
+    "phone_verified_status": "Phone verified",
+    "profile_title": "Patient Information",
+    "profile_sub": "Fill in your personal details to complete the booking.",
+    "label_phone": "Phone number",
+    "label_last_name": "Last name",
+    "placeholder_last": "Enter last name",
+    "label_first_name": "First name",
+    "placeholder_first": "Enter first name",
+    "label_middle_name": "Middle name",
+    "placeholder_middle": "Enter middle name",
+    "label_dob": "Date of birth",
+    "book_appointment": "Book appointment",
+    "success_title": "Appointment booked!",
+    "success_sub": "Your appointment with {{doctor}} has been scheduled.",
+    "success_for": "For",
+    "success_at": "at",
+    "close": "Close",
+    "err_missing_info": "Please complete all selections.",
+    "err_load_specialties": "Failed to load specialties.",
+    "err_load_doctors": "Failed to load doctors.",
+    "err_load_availability": "Failed to load availability.",
+    "err_invalid_phone": "Please enter a valid phone number.",
+    "otp_sent": "OTP sent to {{phone}}.",
+    "err_send_otp": "Failed to send OTP.",
+    "err_enter_otp": "Please enter the OTP code.",
+    "err_invalid_otp": "Invalid OTP code.",
+    "err_book": "Booking failed. Please try again.",
+    "err_first_name": "Please enter your last name.",
+    "err_last_name": "Please enter your first name.",
+    "err_dob": "Please enter your date of birth.",
+    "err_create_book": "Could not create the booking. Please try again.",
+    "application_id": "Application ID",
+    "status": "Status",
+    "status_new": "New",
+    "status_paid": "Paid",
+    "status_cancelled": "Cancelled",
+    "status_unconfirmed": "Unconfirmed",
+    "status_confirmed": "Confirmed",
+    "status_pending_payment": "Pending payment",
+    "status_awaiting_for_payment": "Awaiting for Payment",
+    "status_completed": "Completed",
+    "status_pending": "Pending",
+    "status_awaiting": "Awaiting",
+    "service": "Service",
+    "service_consultation": "Consultation",
+    "service_general_consultation": "General Consultation",
+    "service_dermatology": "Dermatology",
+    "service_pathologica_service": "Pathologica Service",
+    "service_skin_health_check": "Skin Health Check",
+    "date": "Date",
+    "time": "Time",
+    "no_appointments": "You have no appointments.",
+    "not_set": "Not set",
+    "status_unknown": "Unknown",
+    "no_id": "No ID",
+    "no_service_name": "No Service Name",
+    "verified_pill":"Verified"
+  },
+  "booking": {
+      "form": {
+        "title": "Fill out the form to book an early detection appointment"
+      },
+      "success": {
+        "paymentTitle": "Payment successful!",
+        "formTitle": "Application submitted successfully!",
+        "paymentDesc": "Thank you for your payment! Your early detection appointment has been confirmed.",
+        "formDesc": "The payment page has opened in a new tab. If it didn’t open, use the buttons below.",
+        "paymentLinkTitle": "Payment link",
+        "openPayment": "Open payment",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "nextSteps": "What’s next?",
+        "step1": "Complete the payment using the link above",
+        "step2": "Check your email for confirmation",
+        "step3": "Wait for a call from our specialist for confirmation",
+        "step4": "Prepare the required documents for your visit"
+      },
+      "personal": {
+        "title": "Personal Information",
+        "lastName": "Last Name",
+        "firstName": "First Name",
+        "middleName": "Middle Name",
+        "dob": "Date of Birth",
+        "appointmentDate": "Preferred date of first visit (optional)",
+        "email": "Email",
+        "phone": "Phone"
+      },
+      "placeholders": {
+        "lastName": "Enter last name",
+        "firstName": "Enter first name",
+        "middleName": "Enter middle name",
+        "datePlaceholder": "DD/MM/YYYY",
+        "appointmentDate": "Select preferred appointment date",
+        "phone": "Enter phone number"
+      },
+      "errors": {
+        "fillAll": "Please fill in all required fields",
+        "lastName": "Please enter your last name",
+        "firstName": "Please enter your first name",
+        "dob": "Please provide your date of birth",
+        "appointmentDate": "Please select a preferred appointment date",
+        "email": "Please enter your email",
+        "emailInvalid": "Please enter a valid email address",
+        "phone": "Please enter your phone number",
+        "consent": "You must agree to the processing of personal data",
+        "networkError": "Network error. Please check your connection and try again.",
+        "timeout": "The request timed out. Please try again.",
+        "submitFailed": "Failed to submit the form. Please try again."
+      },
+      "package": {
+        "title": "Select a package",
+        "addons": "Additional options",
+        "upgrade": "Upgrade",
+        "oncosearch": "Oncosearch",
+        "insurance": "Cancer insurance",
+        "addonNote": "Add-on to <span class='text-red-600>PREDICT</span>",
+        "inClinic": "at the clinic",
+        "standard": "standard",
+        "autoIncluded": "Automatically included with <span class='text-red-600'>PREDICT</span>+<span class='text-red-600'>5</span>",
+        "upgradeDesc": "Advanced diagnostics + oncosearch"
+      },
+      "addons": {
+        "ct": {
+          "name": "Low-dose chest CT (LDCT)",
+          "note": "without comparison with previous scans"
+        },
+        "mri": {
+          "name": "Brain MRI",
+          "note": "without comparison with previous scans"
+        },
+        "mammography": {
+          "name": "Mammography with tomosynthesis",
+          "note": "without comparison with previous scans"
+        },
+        "endoscopy": {
+          "name": "Gastroscopy and colonoscopy"
+        }
+      },
+      "consent": {
+        "main": "I agree",
+        "processing": "to the processing of personal data",
+        "prefix": "I agree",
+        "link": "consent",
+        "middle": "to the processing of personal data and",
+        "policy": "privacy policy",
+        "marketing": "I agree to receive informational messages, promotional and marketing offers"
+      },
+      "coupon": {
+        "placeholder": "Promo code",
+        "apply": "Apply",
+        "applying": "...",
+        "applied": "Promo code applied!",
+        "invalid": "Invalid promo code.",
+        "failed": "Failed to verify promo code.",
+        "discount": "Discount"
+      },
+      "summary": {
+        "title": "Order summary",
+        "package": "Package",
+        "addons": "Add-ons",
+        "total": "Total",
+        "vat": "VAT 0%"
+      },
+      "common": {
+        "close": "Close",
+        "cancel": "Cancel",
+        "pay": "Proceed to payment",
+        "loading": "Submitting...",
+        "more": "(Learn more)"
+      }
+    },
+  "early": {
+    "page": {
+      "title": "Early Detection",
+      "subtitle": "Book preventive health checks and early detection services in one convenient page."
+    },
+    "pricing": {
+      "predict": {
+        "title": "PREDICT",
+        "subtitle": "Comprehensive early detection package"
+      },
+      "learnMore": "Learn more",
+      "upgrade": {
+        "title": "PREDICT +5",
+        "featuresTitle": "Package features",
+        "features": [
+          "Advanced diagnostics package",
+          "Priority report review",
+          "Extended risk assessment",
+          "Doctor consultation included"
+        ],
+        "oncosearchTitle": "Oncosearch",
+        "oncosearch": [
+          "Cancer risk screening",
+          "Molecular markers analysis",
+          "Targeted tumor search"
+        ],
+        "benefitsTitle": "Benefits",
+        "benefits": [
+          "Early detection of diseases",
+          "Improved treatment outcomes",
+          "Comprehensive medical coverage",
+          "Access to specialists"
+        ],
+        "extraTitle": "Extra benefits",
+        "extra": [
+          "Personalised medical recommendation",
+          "Expert analysis within 24 hours",
+          "Priority appointment scheduling"
+        ]
+      },
+      "insurance": {
+        "title": "Insurance",
+        "content": [
+          "Cancer insurance coverage for your peace of mind",
+          "Financial support for diagnostic procedures",
+          "Assistance at every step"
+        ]
+      }
+    },
+    "booking": {
+      "form": {
+        "title": "Fill out the form to book an early detection appointment"
+      },
+      "success": {
+        "paymentTitle": "Payment successful!",
+        "formTitle": "Application submitted successfully!",
+        "paymentDesc": "Thank you for your payment! Your early detection appointment has been confirmed.",
+        "formDesc": "The payment page has opened in a new tab. If it didn’t open, use the buttons below.",
+        "paymentLinkTitle": "Payment link",
+        "openPayment": "Open payment",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "nextSteps": "What’s next?",
+        "step1": "Complete the payment using the link above",
+        "step2": "Check your email for confirmation",
+        "step3": "Wait for a call from our specialist for confirmation",
+        "step4": "Prepare the required documents for your visit"
+      },
+      "personal": {
+        "title": "Personal Information",
+        "lastName": "Last Name",
+        "firstName": "First Name",
+        "middleName": "Middle Name",
+        "dob": "Date of Birth",
+        "appointmentDate": "Preferred date of first visit (optional)",
+        "email": "Email",
+        "phone": "Phone"
+      },
+      "placeholders": {
+        "lastName": "Enter last name",
+        "firstName": "Enter first name",
+        "middleName": "Enter middle name",
+        "datePlaceholder": "DD/MM/YYYY",
+        "appointmentDate": "Select preferred appointment date",
+        "phone": "Enter phone number"
+      },
+      "errors": {
+        "fillAll": "Please fill in all required fields",
+        "lastName": "Please enter your last name",
+        "firstName": "Please enter your first name",
+        "dob": "Please provide your date of birth",
+        "appointmentDate": "Please select a preferred appointment date",
+        "email": "Please enter your email",
+        "emailInvalid": "Please enter a valid email address",
+        "phone": "Please enter your phone number",
+        "consent": "You must agree to the processing of personal data",
+        "networkError": "Network error. Please check your connection and try again.",
+        "timeout": "The request timed out. Please try again.",
+        "submitFailed": "Failed to submit the form. Please try again."
+      },
+      "package": {
+        "title": "Select a package",
+        "addons": "Additional options",
+        "upgrade": "Upgrade",
+        "oncosearch": "Oncosearch",
+        "insurance": "Cancer insurance",
+        "addonNote": "Add-on to <span class='text-red-600>PREDICT</span>",
+        "inClinic": "at the clinic",
+        "standard": "standard",
+        "autoIncluded": "Automatically included with <span class='text-red-600'>PREDICT</span>+<span class='text-red-600'>5</span>",
+        "upgradeDesc": "Advanced diagnostics + oncosearch"
+      },
+      "addons": {
+        "ct": {
+          "name": "Low-dose chest CT (LDCT)",
+          "note": "without comparison with previous scans"
+        },
+        "mri": {
+          "name": "Brain MRI",
+          "note": "without comparison with previous scans"
+        },
+        "mammography": {
+          "name": "Mammography with tomosynthesis",
+          "note": "without comparison with previous scans"
+        },
+        "endoscopy": {
+          "name": "Gastroscopy and colonoscopy"
+        }
+      },
+      "consent": {
+        "main": "I agree",
+        "processing": "to the processing of personal data",
+        "prefix": "I agree",
+        "link": "consent",
+        "middle": "to the processing of personal data and",
+        "policy": "privacy policy",
+        "marketing": "I agree to receive informational messages, promotional and marketing offers"
+      },
+      "coupon": {
+        "placeholder": "Promo code",
+        "apply": "Apply",
+        "applying": "...",
+        "applied": "Promo code applied!",
+        "invalid": "Invalid promo code.",
+        "failed": "Failed to verify promo code.",
+        "discount": "Discount"
+      },
+      "summary": {
+        "title": "Order summary",
+        "package": "Package",
+        "addons": "Add-ons",
+        "total": "Total",
+        "vat": "VAT 0%"
+      },
+      "common": {
+        "close": "Close",
+        "cancel": "Cancel",
+        "pay": "Proceed to payment",
+        "loading": "Submitting...",
+        "more": "(Learn more)"
+      }
+    }
+  }
+}

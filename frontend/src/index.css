@@ -1,0 +1,43 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap');
+@import "tailwindcss";
+
+/* Enforce a single app-wide font family. */
+*,
+*::before,
+*::after {
+  font-family: 'Satoshi', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+}
+
+.custom-scrollbar {
+  scrollbar-color: #a2b0c5 transparent;
+  
+}
+
+.custom-scrollbar-2 {
+    scrollbar-color: #e2e7ee transparent;
+}
+
+/* Add to your main CSS file */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overscroll-behavior: none;
+}
+
+/* Improve animation performance */
+.motion-div {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Prevent flash of unstyled content during transitions */
+body {
+  opacity: 1 !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

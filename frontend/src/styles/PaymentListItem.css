@@ -1,0 +1,212 @@
+/* Modern Payment List Item Styles */
+.payment-list-item-modern {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.payment-list-item-modern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #12597f, #c66aa8);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.payment-list-item-modern:hover::before {
+  opacity: 1;
+}
+
+.payment-list-item-modern:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.payment-service-info {
+  flex: 1;
+}
+
+.payment-service-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.payment-service-icon {
+  background: linear-gradient(135deg, #12597f 0%, #0f4a6b 100%);
+  color: white;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.payment-service-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #12597f;
+  margin: 0;
+}
+
+.payment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.payment-detail-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.payment-detail-icon {
+  color: #6b7280;
+  font-size: 1rem;
+  width: 20px;
+}
+
+.payment-detail-label {
+  font-size: 0.9rem;
+  color: #6b7280;
+  font-weight: 500;
+  min-width: 100px;
+}
+
+.payment-detail-value {
+  font-size: 0.9rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.payment-status {
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.payment-status-paid {
+  background-color: #ecfdf5;
+  color: #10b981;
+}
+
+.payment-status-pending {
+  background-color: #fffbeb;
+  color: #f59e0b;
+}
+
+.payment-status-failed {
+  background-color: #fef2f2;
+  color: #ef4444;
+}
+
+.payment-status-processing {
+  background-color: #eff6ff;
+  color: #3b82f6;
+}
+
+.payment-status-unknown {
+  background-color: #f3f4f6;
+  color: #6b7280;
+}
+
+.payment-action {
+  margin-left: 1.5rem;
+}
+
+.payment-status-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #10b981 0%, #0d966c 100%);
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.payment-status-badge.paid {
+  background: linear-gradient(135deg, #10b981 0%, #0d966c 100%);
+}
+
+.status-icon {
+  font-size: 1rem;
+}
+
+.pay-now-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #c66aa8 0%, #b25990 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(198, 106, 168, 0.2);
+  cursor: pointer;
+}
+
+.pay-now-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(198, 106, 168, 0.3);
+}
+
+.pay-now-button:disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.payment-link-icon {
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .payment-list-item-modern {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .payment-action {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .payment-status-badge,
+  .pay-now-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .payment-detail-item {
+    flex-wrap: wrap;
+  }
+
+  .payment-detail-label {
+    min-width: auto;
+  }
+}

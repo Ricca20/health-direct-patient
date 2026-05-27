@@ -1,0 +1,561 @@
+/* Modern Follow-Up Modal Styles - Redesigned */
+.fum-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 1rem;
+  animation: fum-fadeIn 0.3s ease;
+}
+
+.fum-container {
+  width: 100%;
+  max-width: 640px;
+  max-height: 85vh;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.fum-card {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  animation: fum-scaleIn 0.3s ease;
+}
+
+.fum-header {
+  padding: 1.5rem 1.5rem 0.5rem;
+  border-bottom: 1px solid #f1f5f9;
+  background: white;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.fum-title-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 2rem;
+}
+
+.fum-step-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.fum-step {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background-color: #f1f5f9;
+  color: #64748b;
+  transition: all 0.3s ease;
+}
+
+.fum-step.active {
+  background-color: #3b82f6;
+  color: white;
+  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.3);
+}
+
+.fum-step-divider {
+  width: 40px;
+  height: 2px;
+  background-color: #e2e8f0;
+  border-radius: 1px;
+}
+
+.fum-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  text-align: center;
+}
+
+.fum-close-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: #f8fafc;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #64748b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.fum-close-btn:hover {
+  background: #f1f5f9;
+  color: #475569;
+  transform: rotate(90deg);
+}
+
+.fum-content {
+  padding: 1.5rem;
+  overflow-y: auto;
+  flex-grow: 1;
+  /* Custom scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.fum-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.fum-content::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 3px;
+  margin: 4px;
+}
+
+.fum-content::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 3px;
+}
+
+.fum-content::-webkit-scrollbar-thumb:hover {
+  background-color: #94a3b8;
+}
+
+.fum-form-group {
+  margin-bottom: 1.25rem;
+}
+
+.fum-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #334155;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9375rem;
+}
+
+.fum-icon {
+  color: #64748b;
+}
+
+.fum-select-wrapper {
+  position: relative;
+}
+
+.fum-select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: white;
+  appearance: none;
+  transition: all 0.2s ease;
+  color: #334155;
+}
+
+.fum-select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.fum-date-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  color: #334155;
+}
+
+.fum-date-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.fum-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: #64748b;
+}
+
+.fum-loading-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid #f1f5f9;
+  border-top: 3px solid #3b82f6;
+  border-radius: 50%;
+  animation: fum-spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+.fum-slots-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.fum-slot {
+  padding: 0.75rem 0.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.fum-slot:hover:not(:disabled) {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.fum-slot:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.fum-slot-available {
+  border-color: #e2e8f0;
+}
+
+.fum-slot-selected {
+  border-color: #3b82f6;
+  background-color: #eff6ff;
+  color: #1e40af;
+  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.2);
+}
+
+.fum-slot-booked {
+  border-color: #fecaca;
+  background-color: #fef2f2;
+  color: #b91c1c;
+  cursor: not-allowed;
+}
+
+.fum-slot-reserved {
+  border-color: #fed7aa;
+  background-color: #fff7ed;
+  color: #c2410c;
+}
+
+.fum-slot-reserved-selected {
+  border-color: #f59e0b;
+  background-color: #fffbeb;
+  color: #b45309;
+}
+
+.fum-slot-patient-conflict-unconfirmed {
+  border-color: #fef3c7;
+  background-color: #fffbeb;
+  color: #b45309;
+  cursor: not-allowed;
+}
+
+.fum-slot-patient-conflict-confirmed {
+  border-color: #bbf7d0;
+  background-color: #f0fdf4;
+  color: #166534;
+  cursor: not-allowed;
+}
+
+.fum-slot-time {
+  font-weight: 600;
+  font-size: 0.9375rem;
+  margin-bottom: 0.25rem;
+}
+
+.fum-slot-status {
+  font-size: 0.75rem;
+  opacity: 0.8;
+}
+
+.fum-no-slots {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: #64748b;
+  text-align: center;
+  grid-column: 1 / -1;
+}
+
+.fum-no-slots-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.fum-warning-banner {
+  background-color: #fffbeb;
+  border: 1px solid #fcd34d;
+  color: #b45309;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.fum-action-buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f1f5f9;
+  flex-shrink: 0;
+}
+
+.fum-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.fum-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.fum-btn-secondary {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  color: #475569;
+}
+
+.fum-btn-secondary:hover:not(:disabled) {
+  background-color: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.fum-btn-primary {
+  background-color: #3b82f6;
+  border: 1px solid #3b82f6;
+  color: white;
+  box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.3);
+}
+
+.fum-btn-primary:hover:not(:disabled) {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 10px -1px rgba(59, 130, 246, 0.4);
+}
+
+.fum-btn-icon {
+  font-size: 1.125rem;
+}
+
+.fum-payment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.fum-appointment-summary {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  padding: 1.25rem;
+}
+
+.fum-appointment-summary h4 {
+  margin: 0 0 1rem 0;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.fum-summary-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-size: 0.9375rem;
+}
+
+.fum-summary-item:last-child {
+  margin-bottom: 0;
+}
+
+.fum-summary-item span:first-child {
+  font-weight: 500;
+  color: #64748b;
+}
+
+.fum-payment-options h4 {
+  margin: 0 0 1rem 0;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.fum-payment-option-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.fum-payment-info {
+  margin: 0 0 0.5rem 0;
+  color: #64748b;
+  font-size: 0.875rem;
+}
+
+.fum-payment-option {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.fum-payment-option:hover {
+  border-color: #3b82f6;
+  background-color: #f8fafc;
+}
+
+.fum-payment-option input[type="radio"] {
+  margin-right: 0.75rem;
+}
+
+.fum-payment-option-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.fum-payment-icon {
+  font-size: 1.25rem;
+  color: #64748b;
+}
+
+.fum-payment-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.fum-payment-label {
+  font-weight: 500;
+  color: #334155;
+}
+
+.fum-payment-desc {
+  font-size: 0.875rem;
+  color: #64748b;
+}
+
+/* Animations */
+@keyframes fum-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fum-scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fum-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .fum-overlay {
+    padding: 0.5rem;
+  }
+  
+  .fum-container {
+    max-height: 90vh;
+    border-radius: 16px;
+  }
+  
+  .fum-header {
+    padding: 1.25rem 1.25rem 0.5rem;
+  }
+  
+  .fum-content {
+    padding: 1.25rem;
+  }
+  
+  .fum-title {
+    font-size: 1.25rem;
+  }
+  
+  .fum-slots-grid {
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  }
+  
+  .fum-action-buttons {
+    flex-direction: column-reverse;
+  }
+  
+  .fum-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .fum-close-btn {
+    top: 1rem;
+    right: 1rem;
+  }
+}

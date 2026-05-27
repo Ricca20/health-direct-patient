@@ -1,0 +1,222 @@
+.dashboard-wrapper {
+  background-color: #eff4f8;
+  height: calc(100vh - 5.5rem);
+  overflow-y: auto;
+}
+
+.grayed-out {
+  opacity: 0.5;
+  pointer-events: none;
+  filter: grayscale(100%);
+}
+
+@media (min-width: 768px) {
+  .dashboard-wrapper {
+    padding:0 2.5rem;
+    max-height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 30px;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .dashboard-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+/* DiscountCard mobile (shown only on small screens) */
+.discount-card-mobile {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .discount-card-mobile {
+    display: none;
+  }
+}
+
+/* DiscountCard desktop (hidden on small, shown on md+) */
+.discount-card-desktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .discount-card-desktop {
+    display: block;
+    grid-column: span 3;
+  }
+}
+
+.service-card-rh {
+  display: flex;
+  gap: 30px;
+}
+
+.service-card-rh button {
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  color: #13597F;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.service-card-rh button:hover {
+  cursor: pointer;
+  background-color: #edeff1;
+
+}
+
+/* Skeleton base */
+.skeleton-box {
+  position: relative;
+  overflow: hidden;
+  background: #e5e7eb;
+  /* base gray */
+  border-radius: 12px;
+}
+
+/* Shimmer effect */
+.skeleton-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150px;
+  height: 100%;
+  width: 150px;
+  background: linear-gradient(90deg,
+      transparent,
+      rgba(255, 255, 255, 0.3),
+      transparent);
+  animation: shimmer 1.5s infinite;
+}
+
+/* Animation */
+@keyframes shimmer {
+  0% {
+    left: -150px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+/* Match card placements */
+.skeleton-profile {
+  grid-column: span 2 / span 2;
+  height: 20rem;
+}
+
+.skeleton-payments {
+  grid-column: span 2 / span 2;
+}
+
+.skeleton-discount-desktop {
+  grid-column: span 3 / span 3;
+  height: 20rem;
+
+}
+
+.skeleton-discount-mobile {
+  height: 20rem;
+
+}
+
+.skeleton-appointments {
+  grid-column: span 2 / span 2;
+}
+
+.skeleton-services {
+  grid-column: span 5 / span 5;
+  height: 25rem;
+}
+
+@media (max-width: 768px) {
+
+  .skeleton-profile,
+  .skeleton-payments,
+  .skeleton-discount-mobile,
+  .skeleton-appointments,
+  .skeleton-services {
+    height: 10rem;
+    margin-bottom: 10px;
+  }
+}
+
+/* Dashboard Search Bar */
+.dashboard-search-container {
+  padding: 1rem 1rem 1rem;
+  margin-right: auto;
+}
+
+.dashboard-search-bar {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 48px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+  padding: 0.5rem 1rem;
+}
+
+.dashboard-search-bar:focus-within {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: #cbd5e1;
+}
+
+.search-icon {
+  color: #94a3b8;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.dashboard-search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+  padding: 0.5rem 0;
+  transition: all 0.2s;
+}
+
+.dashboard-search-input::placeholder {
+  color: #94a3b8;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 1;
+}
+
+/* Optional: subtle fade animation when placeholder changes */
+.dashboard-search-input:placeholder-shown {
+  animation: gentlePulse 0.3s ease;
+}
+
+@keyframes gentlePulse {
+  0% { opacity: 0.7; }
+  50% { opacity: 1; }
+  100% { opacity: 0.7; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dashboard-search-container {
+    padding: 0.75rem 1rem 0 1rem;
+  }
+  .dashboard-search-input {
+    font-size: 0.9rem;
+  }
+}

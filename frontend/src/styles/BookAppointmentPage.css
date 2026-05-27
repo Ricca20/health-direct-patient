@@ -1,0 +1,68 @@
+/* src/styles/BookAppointmentPage.css */
+
+.ba-page-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  min-height: calc(100vh - 160px);
+}
+
+.ba-page-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0a2e5d;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.ba-page-card {
+  background: #ffffff;
+  border-radius: 32px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+  border: 1px solid #eef2f6;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+}
+
+/* Override/Adapt Existing Classes for Page Flow */
+.baa-header.page-mode {
+  padding: 28px 40px;
+  background: #fff;
+  border-bottom: 1.5px solid #f1f5f9;
+}
+
+.baa-scroll-wrapper.page-mode {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.baa-body.page-mode {
+  display: grid;
+  grid-template-columns: 280px 320px 1fr;
+  flex: 1;
+  border: none;
+  min-height: 520px;
+}
+
+@media (max-width: 1024px) {
+  .baa-body.page-mode {
+    grid-template-columns: 1fr;
+  }
+  .ba-page-card {
+      min-height: auto;
+  }
+}
+
+.baa-col.page-mode {
+    border-right: 1.5px solid #f1f5f9;
+}
+
+/* Success State Center */
+.baw-success.page-mode {
+    padding: 80px 40px;
+    max-width: 500px;
+    margin: 0 auto;
+}

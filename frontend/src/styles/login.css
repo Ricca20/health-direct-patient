@@ -1,0 +1,308 @@
+.auth-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.auth-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+  /* Bluish tint overlay matching screenshot */
+}
+
+.auth-box {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  z-index: 1;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.auth-logo {
+  width: 300px;
+  /* Increased logo size to match screenshot */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  /* Treat the image as a block element */
+  margin-left: auto;
+  /* Center horizontally */
+  margin-right: auto;
+  /* Center horizontally */
+}
+
+.auth-box h2 {
+  font-size: 18px;
+  /* Slightly larger to match screenshot */
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-field label {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 12px 15px;
+  /* Adjusted padding to match screenshot */
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  /* More rounded to match screenshot */
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  background: #f5f5f5;
+  /* Light gray background to match screenshot */
+}
+
+.input-field input::placeholder {
+  color: #999;
+  /* Lighter placeholder color to match screenshot */
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.options label {
+  color: #585858;
+  display: flex;
+  align-items: center;
+}
+
+.options label input {
+  margin-right: 5px;
+}
+
+/* Custom checkbox styles */
+.checkbox-label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox-input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #007bff;
+  /* Match the blue theme */
+  border-radius: 3px;
+  margin-right: 8px;
+  position: relative;
+  background-color: transparent;
+  transition: background-color 0.2s;
+}
+
+.checkbox-input:checked+.custom-checkbox {
+  background-color: #007bff;
+  /* Blue background when checked */
+}
+
+.checkbox-input:checked+.custom-checkbox::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  /* Adjusted to center the checkmark */
+  top: 1px;
+  /* Adjusted to center the checkmark */
+  width: 4px;
+  /* Smaller width for better proportion */
+  height: 8px;
+  /* Smaller height for better proportion */
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  /* Create a checkmark */
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.auth-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.auth-box p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Add spinner styles */
+.auth-button {
+  position: relative;
+}
+
+.spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: spin 1s ease-in-out infinite;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Style for disabled button */
+.auth-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+
+
+
+/* Forgot Password Styles */
+.forgot-password-description {
+  color: #6b7280;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 24px 0;
+  line-height: 1.5;
+}
+
+.forgot-password-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.forgot-password-success {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.success-icon {
+  width: 48px;
+  height: 48px;
+  background: #10b981;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto 16px;
+}
+
+.success-message {
+  color: #10b981;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+}
+
+.success-note {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+  line-height: 1.4;
+}
+
+.auth-button.secondary {
+  background: #f3f4f6;
+  color: #374151;
+  flex: 1;
+}
+
+.auth-button.secondary:hover {
+  background: #e5e7eb;
+}
+
+.auth-button.primary {
+  background: #3b82f6;
+  color: white;
+  flex: 1;
+}
+
+.auth-button.primary:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+.auth-button.primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .forgot-password-buttons {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,155 @@
+/* Modern List Item Styles */
+.appointment-list-item-modern {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1rem;
+  border: 1px solid #eaeaea;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.appointment-list-item-modern:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.appointment-item-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.appointment-service-info {
+  flex: 1;
+}
+
+.appointment-title-modern {
+  font-weight: 600;
+  color: #12597f;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.appointment-id {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.appointment-status-modern {
+  margin-left: 1rem;
+}
+
+/* Default badge look */
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+/* Specific status colors */
+.status-unconfirmed {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-confirmed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-awaiting {
+  background-color: #fff8e1;
+  color: #b36b00;
+}
+
+.status-cancelled {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.status-unknown {
+  background-color: #e2e3e5;
+  color: #6c757d;
+}
+
+.appointment-details-modern {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.detail-icon {
+  font-size: 1rem;
+}
+
+.detail-text {
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+.appointment-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.view-details-btn-modern {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #12597f;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-details-btn-modern:hover {
+  background-color: #0f4a6b;
+  transform: translateX(4px);
+}
+
+.btn-arrow {
+  transition: transform 0.2s ease;
+}
+
+.view-details-btn-modern:hover .btn-arrow {
+  transform: translateX(3px);
+}
+
+.appointment-id {
+  font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .appointment-item-main {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .appointment-status-modern {
+    margin-left: 0;
+    align-self: flex-start;
+  }
+
+  .appointment-details-modern {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+}

@@ -1,0 +1,424 @@
+.appt-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    backdrop-filter: blur(5px);
+}
+
+.appt-popup-container {
+    max-width: 90%;
+    width: 800px;
+    max-height: 90vh;
+    overflow: hidden;
+}
+
+.appt-popup-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.appt-popup-header {
+    background-color: #0f4562;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.appt-popup-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.appt-header-icon {
+    font-size: 24px;
+}
+
+.appt-popup-close {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.appt-popup-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+.appt-popup-body {
+    padding: 25px;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.appt-info-alert {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.appt-info-icon {
+    color: #856404;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.appt-success-message {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+    border: 2px solid #28a745;
+    border-radius: 10px;
+}
+
+.appt-success-icon {
+    font-size: 48px;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.appt-success-message p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #155724;
+    font-weight: 600;
+}
+
+.appt-list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.appt-item-card {
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.appt-item-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.appt-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.appt-doctor-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.appt-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0f4562;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.appt-doctor-details h4 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+.appt-specialty {
+    margin: 0;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.appt-status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.appt-status-confirmed {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.appt-status-unconfirmed {
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeaa7;
+}
+
+.appt-status-awaiting-payment {
+    background: #cce5ff;
+    color: #004085;
+    border: 1px solid #b8daff;
+}
+
+.appt-status-cancelled {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.appt-status-unknown {
+    background: #e2e3e5;
+    color: #383d41;
+    border: 1px solid #d6d8db;
+}
+
+.appt-status-message {
+    background: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #495057;
+    border-left: 4px solid #0f4562;
+
+}
+
+.appt-details-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.appt-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
+
+.appt-detail-icon {
+    color: #0f4562;
+    font-size: 16px;
+}
+
+.appt-detail-label {
+    margin: 0;
+    font-size: 12px;
+    color: #6c757d;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.appt-detail-value {
+    margin: 0;
+    font-size: 14px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.appt-actions {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.appt-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.appt-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.appt-btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.appt-btn-secondary:hover:not(:disabled) {
+    background: #5a6268;
+    transform: translateY(-2px);
+}
+
+.appt-btn-danger {
+    background: #dc3545;
+    color: white;
+}
+
+.appt-btn-danger:hover:not(:disabled) {
+    background: #c82333;
+    transform: translateY(-2px);
+}
+
+.appt-btn-primary {
+    background: #007bff;
+    color: white;
+}
+
+.appt-btn-primary:hover:not(:disabled) {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+.appt-cancel-confirm {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border: 2px solid #ffc107;
+}
+
+.appt-confirm-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.appt-btn-confirm {
+    background: #28a745;
+    color: white;
+}
+
+.appt-btn-confirm:hover:not(:disabled) {
+    background: #218838;
+    transform: translateY(-2px);
+}
+
+.appt-btn-cancel {
+    background: #6c757d;
+    color: white;
+}
+
+.appt-btn-cancel:hover:not(:disabled) {
+    background: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Animation for closing */
+.popup-closing {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.appt-popup-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.appt-popup-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.appt-popup-body::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+.appt-popup-body::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .appt-popup-container {
+        max-width: 95%;
+        width: 95%;
+    }
+
+    .appt-details-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .appt-item-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
+    .appt-confirm-buttons {
+        flex-direction: column;
+    }
+}
+
+.appt-info-alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.appt-auto-close {
+    font-size: 0.9rem;
+    color: #6c757d;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.appt-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #6c757d;
+    transition: color 0.2s;
+}
+
+.appt-close-btn:hover {
+    color: #495057;
+}

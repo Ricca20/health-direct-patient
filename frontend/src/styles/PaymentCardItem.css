@@ -1,0 +1,210 @@
+/* Modern Payment Card Item Styles */
+.payment-card-modern {
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 16px;
+  padding: 1.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  max-width: 320px;
+  width: 100%;
+  margin: 0.75rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.payment-card-modern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, #12597f, #c66aa8);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.payment-card-modern:hover::before {
+  opacity: 1;
+}
+
+.payment-card-modern:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.payment-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.payment-service-icon {
+  background: linear-gradient(135deg, #12597f 0%, #0f4a6b 100%);
+  color: white;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.payment-service-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #12597f;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.payment-card-details {
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.payment-card-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.payment-card-icon {
+  color: #6b7280;
+  font-size: 1.1rem;
+  width: 24px;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+
+.payment-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-card-label {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-bottom: 0.2rem;
+  font-weight: 500;
+}
+
+.payment-card-value {
+  font-size: 0.9rem;
+  color: #374151;
+  font-weight: 500;
+}
+
+.payment-status {
+  font-weight: 600;
+  padding: 0.25rem 0.7rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  display: inline-block;
+  border: none;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.payment-status-paid {
+  background-color: #e0fcef;
+  color: #17684d;
+}
+
+.payment-status-pending {
+  background-color: #fffbeb;
+  color: #f59e0b;
+}
+
+.payment-status-failed {
+  background-color: #fef2f2;
+  color: #ef4444;
+}
+
+.payment-status-processing {
+  background-color: #eff6ff;
+  color: #3b82f6;
+}
+
+.payment-status-unknown {
+  background-color: #f3f4f6;
+  color: #6b7280;
+}
+
+.payment-card-action {
+  margin-top: auto;
+}
+
+.payment-status-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #10b981 0%, #0d966c 100%);
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.pay-now-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #c66aa8 0%, #b25990 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(198, 106, 168, 0.2);
+  cursor: pointer;
+}
+
+.pay-now-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(198, 106, 168, 0.3);
+}
+
+.pay-now-button:disabled {
+  background: #d1d5db;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.payment-link-icon {
+  font-size: 0.9rem;
+}
+
+.status-icon {
+  font-size: 1rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .payment-card-modern {
+    max-width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .payment-card-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .payment-service-icon {
+    margin-right: 0;
+    margin-bottom: 0.75rem;
+  }
+}

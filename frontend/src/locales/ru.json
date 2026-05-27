@@ -1,0 +1,1178 @@
+{
+  "landing": {
+    "heading": "Ваш партнер в заботе о здоровье",
+    "description": "Доступ к медицинским картам и связь с врачами в одном безопасном месте. Мы поддержим вас на каждом этапе пути к благополучию.",
+    "prompt": "Уже есть аккаунт или готовы присоединиться?",
+    "signin": "Войти",
+    "register": "Регистрация →",
+    "without_login": "Начать →"
+  },
+  "signup": {
+    "subtitle": "Зарегистрируйтесь для доступа к панели управления",
+    "createAccount": "СОЗДАТЬ АККАУНТ",
+    "tabs": {
+      "email": "Эл. почта",
+      "otp": "OTP"
+    },
+    "emailLabel": "Электронная почта",
+    "emailPlaceholder": "Ваша электронная почта",
+    "emailError": "Пожалуйста, введите действительный адрес электронной почты",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введите пароль",
+    "passwordLengthError": "Пароль должен содержать не менее 8 символов",
+    "passwordSymbolError": "Пароль должен содержать хотя бы один символ",
+    "passwordNumberError": "Пароль должен содержать хотя бы одну цифру",
+    "passwordUppercaseError": "Пароль должен содержать хотя бы одну заглавную букву",
+    "passwordLowercaseError": "Пароль должен содержать хотя бы одну строчную букву",
+    "confirmPasswordLabel": "Подтвердите пароль",
+    "confirmPasswordPlaceholder": "Подтвердите пароль",
+    "passwordMismatchError": "Пароли не совпадают",
+    "acceptTerms": "Я принимаю",
+    "termsConditions": "Условия и положения",
+    "signUpButton": "ЗАРЕГИСТРИРОВАТЬСЯ",
+    "creatingAccount": "СОЗДАНИЕ...",
+    "alreadyHaveAccount": "Уже есть аккаунт?",
+    "loginLink": "Войти",
+    "formError": "Пожалуйста, исправьте все ошибки и примите Условия и положения перед регистрацией",
+    "signupSuccess": "Регистрация прошла успешно! Пожалуйста, войдите.",
+    "signupError": "Ошибка регистрации. Пожалуйста, попробуйте еще раз.",
+    "otp": {
+      "title": "Создать аккаунт по телефону",
+      "subtitle": "Зарегистрируйтесь, используя номер телефона",
+      "phoneLabel": "Номер телефона",
+      "phonePlaceholder": "+7 9XX XXXX XX XX",
+      "otpLabel": "Код подтверждения",
+      "otpPlaceholder": "123456",
+      "sendOtp": "Отправить OTP",
+      "sending": "Отправляем...",
+      "otpSent": "OTP успешно отправлен!",
+      "register": "Зарегистрироваться по OTP",
+      "verify": "Подтвердить OTP",
+      "verifying": "Проверяем...",
+      "changeNumber": "Изменить номер",
+      "resend": "Отправить OTP повторно",
+      "sendFailed": "Не удалось отправить OTP",
+      "verifyFailed": "Неверный или просроченный OTP",
+      "phoneRequired": "Требуется номер телефона",
+      "invalidPhone": "Пожалуйста, введите действительный номер телефона (7-15 цифр, + необязателен)",
+      "otpRequired": "Требуется код OTP",
+      "invalidOtp": "OTP должен содержать 4-6 цифр",
+      "signupSuccess": "Аккаунт успешно создан!",
+      "titleShort": "С возвращением",
+      "subtitleShort": "Войдите, используя номер телефона"
+    }
+  },
+  "signin": {
+    "subtitle": "Войдите, чтобы получить доступ к панели управления",
+    "backToHome": "На главную",
+    "title": "ВХОД",
+    "tabs": {
+      "email": "Эл. почта",
+      "otp": "OTP"
+    },
+    "emailLabel": "Электронная почта",
+    "emailPlaceholder": "Ваша электронная почта",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Введите пароль",
+    "errors": {
+      "email": "Пожалуйста, введите действительный адрес электронной почты",
+      "form": "Пожалуйста, предоставьте действительный email и пароль",
+      "login": "Ошибка входа",
+      "invalidCredentials": "Неверные учетные данные"
+    },
+    "rememberMe": "Запомнить меня",
+    "forgotPassword": "Забыли пароль?",
+    "login": "ВОЙТИ",
+    "footerText": "Нет аккаунта?",
+    "footerLink": "Создать аккаунт",
+    "loginSuccess": "Вход выполнен успешно!",
+    "otp": {
+      "title": "С возвращением",
+      "subtitle": "Войдите, используя номер телефона",
+      "phoneLabel": "Номер телефона",
+      "phonePlaceholder": "+7 9XX XXXX XX XX",
+      "otpLabel": "Код подтверждения",
+      "otpPlaceholder": "123456",
+      "sendOtp": "Отправить OTP",
+      "sending": "Отправляем...",
+      "otpSent": "OTP успешно отправлен!",
+      "verify": "Войти по OTP",
+      "verifying": "Проверяем...",
+      "changeNumber": "Изменить номер",
+      "resend": "Отправить OTP повторно",
+      "sendFailed": "Не удалось отправить OTP",
+      "verifyFailed": "Неверный или просроченный OTP",
+      "phoneRequired": "Требуется номер телефона",
+      "invalidPhone": "Пожалуйста, введите действительный номер телефона (7-15 цифр, + необязателен)",
+      "otpRequired": "Требуется код OTP",
+      "invalidOtp": "OTP должен содержать 4-6 цифр"
+    }
+  },
+  "header": {
+    "welcome": "Добро пожаловать!",
+    "mr": "уважаемый",
+    "mrs": "уважаемый",
+    "mx": "Уважаемый(ая)",
+    "user": "Пользователь",
+    "subtitle": "Как мы можем помочь вам сегодня?",
+    "signin":"Войти"  
+  },
+  "dashboard": {
+    "search_placeholder_doctors": "Поиск врачей...",
+    "search_placeholder_specialty": "Поиск по специальности...",
+    "top_rated_doctors": "Лучшие врачи",
+    "view_all": "Смотреть все →",
+    "book_appointment": "Записаться на прием",
+    "contact_for_fee": "Уточнить стоимость",
+    "photo_not_available": "Фото недоступно",
+    "special_offer": "Специальное предложение",
+    "check_back_soon": "Скоро здесь появятся скидки!",
+    "learn_more": "Узнать больше",
+    "no_doctors": "В данный момент врачей нет.",
+    "years_exp": "лет опыта",
+    "general_physician": "Терапевт",
+    "expert_badge": "Эксперт",
+    "specialist_categories": "Категории специалистов",
+    "err_load_promos": "Не удалось загрузить акции",
+    "err_load_doctors": "Не удалось загрузить врачей"
+  },
+  "doctors": {
+    "page_title": "Наши врачи",
+    "subtitle": "Найдите лучших специалистов для вашего здоровья",
+    "search_placeholder": "Поиск по имени или специальности...",
+    "filter": "Фильтр",
+    "clear_filters": "Сбросить фильтры",
+    "specialty": "Специальность",
+    "all_specialties": "Все специальности",
+    "doctors_found": "врачей найдено",
+    "no_doctors_found": "Нет врачей, соответствующих вашему запросу.",
+    "fetch_error": "Не удалось загрузить врачей. Попробуйте позже.",
+    "login_required": "Пожалуйста, войдите, чтобы увидеть врачей.",
+    "loading_more": "Загрузка врачей...",
+    "end_of_results": "Вы достигли конца списка.",
+    "expert_badge": "Эксперт",
+    "years_exp": "лет",
+    "online": "Онлайн",
+    "offline": "Офлайн",
+    "book_appointment": "Записаться"
+  },
+  "specialists": {
+    "page_title": "Найдите своего специалиста",
+    "page_description": "Найдите подходящего медицинского специалиста из нашей команды экспертов.",
+    "search_placeholder": "Поиск специалистов...",
+    "no_results": "Нет специалистов, соответствующих вашему запросу.",
+    "specialist_count": "специалистов",
+    "categories": {
+      "cardiology": {
+        "title": "Кардиология",
+        "subtitle": "128 опытных специалистов"
+      },
+      "neurology": {
+        "title": "Неврология",
+        "subtitle": "84 специалиста"
+      },
+      "pediatrics": {
+        "title": "Педиатрия",
+        "subtitle": "210 специалистов"
+      },
+      "oncology": {
+        "title": "Онкология",
+        "subtitle": "56 мировых экспертов"
+      },
+      "dental": {
+        "title": "Стоматология",
+        "subtitle": "95 специалистов"
+      },
+      "dermatology": {
+        "title": "Дерматология",
+        "subtitle": "42 специалиста"
+      },
+      "ent": {
+        "title": "ЛОР",
+        "subtitle": "78 специалистов"
+      },
+      "ophthalmology": {
+        "title": "Офтальмология",
+        "subtitle": "64 специалиста"
+      },
+      "orthopedics": {
+        "title": "Ортопедия",
+        "subtitle": "57 специалистов"
+      },
+      "general_surgery": {
+        "title": "Общая хирургия",
+        "subtitle": "Экспертная хирургическая помощь"
+      }
+    }
+  },
+  "doctorDetails": {
+    "tabs": {
+      "about": "О враче",
+      "experiences": "Опыт",
+      "reviews": "Отзывы"
+    },
+    "no_about": "Дополнительная информация отсутствует.",
+    "no_experiences": "Нет данных об образовании или опыте работы.",
+    "no_reviews": "Пока нет отзывов. Будьте первым!",
+    "anonymous": "Аноним",
+    "years_exp": "лет",
+    "fee": "Стоимость",
+    "online": "Онлайн",
+    "offline": "Офлайн",
+    "about": "О враче",
+    "education": "Образование",
+    "work_experience": "Опыт работы",
+    "schedules": "Расписание",
+    "select_date_first": "Сначала выберите дату",
+    "weekdays": {
+      "sun": "Вс",
+      "mon": "Пн",
+      "tue": "Вт",
+      "wed": "Ср",
+      "thu": "Чт",
+      "fri": "Пт",
+      "sat": "Сб"
+    },
+    "timePeriods": {
+      "morning": "Утро",
+      "afternoon": "День",
+      "evening": "Вечер",
+      "night": "Ночь"
+    },
+    "book_appointment": "Записаться",
+    "booking": "Бронирование...",
+    "booking_success": "Запись успешно создана!",
+    "booking_error": "Ошибка при записи. Попробуйте снова.",
+    "not_found": "Врач не найден",
+    "fetch_error": "Не удалось загрузить данные врача",
+    "login_required": "Войдите, чтобы посмотреть профиль врача",
+    "select_date_time": "Выберите дату и время"
+  },
+  "side_navbar": {
+    "home": "Главная",
+    "doctors": "Врачи",
+    "specialist": "Специалисты",
+    "book_appointments": "Записаться на прием",
+    "early_detection": "Ранняя диагностика",
+    "payments": "Мои платежи",
+    "profile": "Профиль"
+  },
+  "profile_card": {
+    "name": "Имя пользователя",
+    "dateOfBirth": "Дата рождения",
+    "phoneNumber": "Номер телефона",
+    "email": "Электронная почта"
+  },
+  "payments_card": {
+    "title": "Ваши платежи",
+    "subtitle": "Посмотрите ваши прошлые платежи",
+    "preview_button": "Нажмите здесь для предварительного просмотра",
+    "previous_payments": "Посмотреть предыдущие платежи",
+    "payment1": {
+      "title": "Патологическая услуга",
+      "status": "Счет создан"
+    }
+  },
+  "discounts_card": {
+    "text": "Получите <br /> 20% скидку <br /> на ваш первый <br /> визит",
+    "button": "Записаться"
+  },
+  "appointments_card": {
+    "title": "Ваши записи",
+    "subtitle": "Смотрите все ваши записи здесь",
+    "button": "Посмотреть предыдущие записи",
+    "appointment1": {
+      "title": "Патологическая услуга",
+      "date": "10 апреля 2025"
+    },
+    "appointment2": {
+      "title": "Онкохирургия",
+      "date": "21 апреля 2025"
+    },
+    "appointment3": {
+      "title": "Онкохирургия",
+      "date": "21 апреля 2025"
+    }
+  },
+  "services_card": {
+    "title": "Заказать услугу",
+    "subtitle": "Выберите из следующих услуг",
+    "service1": "Индивидуальная ранняя диагностика заболевания",
+    "service2": "Патологическая услуга",
+    "service3": "Молекулярный совет",
+    "service4": "Очные и удалённые консультации",
+    "service5": "Международный онкологический консилиум",
+    "service6": "Экспертная оценка КТ, МРТ, ПЭТ-КТ"
+  },
+  "appointments": {
+    "view": "Просмотреть",
+    "download": "Скачать",
+    "title": "Ваши записи",
+    "subtitle": "Просмотрите все свои записи здесь",
+    "button": "Заказать новую услугу",
+    "search_placeholder": "Поиск записи...",
+    "filter1_placeholder": "Фильтр по",
+    "no_results": "Записи не найдены.",
+    "appointmentId": "Идентификатор записи на прием",
+    "view_details": "Просмотр подробной информации",
+
+    "noTests": "Анализы еще не назначены.",
+    "noResult": "Загрузить результат",
+    "testResults": "Анализы и результаты",
+    "addTest": "Добавить анализ",
+    "selectTests": "Выберите анализы для добавления",
+    "deSelectAll": "Отменить выбор всех",
+    "selectAll": "Выбрать все",
+    "alreadySelected": "Уже добавлено",
+    "testSelected": "анализ(а) выбрано",
+    "addSelectedTests": "Добавить выбранные анализы",
+    "otherAppointments": "Другие связанные приёмы",
+
+    "appointment1": {
+      "doctor": "Д-р Миндубаев Эдуард",
+      "date": "10 апреля 2025",
+      "time": "10:00"
+    },
+    "appointment2": {
+      "doctor": "Д-р Автандил Бабунашвили",
+      "date": "21 марта 2025",
+      "time": "10:00"
+    },
+    "appointment3": {
+      "doctor": "Д-р Автандил Бабунашвили",
+      "date": "12 июня 2025",
+      "time": "10:00"
+    },
+    "appointment4": {
+      "doctor": "Д-р Баходур Камолов",
+      "date": "12 июня 2025",
+      "time": "10:00"
+    },
+    "appointment5": {
+      "doctor": "Д-р Винод Райна",
+      "date": "10 апреля 2025",
+      "time": "10:00"
+    },
+    "appointment6": {
+      "doctor": "Д-р Ашок Баведжа",
+      "date": "21 марта 2025",
+      "time": "10:00"
+    },
+    "appointment7": {
+      "doctor": "Д-р Локеш Кумар",
+      "date": "21 марта 2025",
+      "time": "10:00"
+    }
+  },
+  "payments": {
+    "title": "Мои платежи",
+    "subtitle": "Ваши счета и история оплат",
+    "tabs": {
+      "all": "Все"
+    },
+    "status": {
+      "pending": "Ожидает",
+      "success": "Успешно",
+      "failed": "Ошибка",
+      "new": "Новый",
+      "invoice_sent": "Счёт отправлен",
+      "free": "Бесплатно"
+    },
+    "method": "СПОСОБ ОПЛАТЫ",
+    "linked_enrollments": "Связанные курсы",
+    "course_name": "Путь к здоровью: 7 уроков для начинающих",
+    "pay_now": "Оплатить",
+    "payment_error": "Не удалось обработать платеж. Попробуйте снова.",
+    "no_results": "Платежи не найдены."
+  },
+  "profile": {
+    "title": "Данные получателя услуг",
+    "surname": "Фамилия",
+    "surnamePlaceholder": "Введите фамилию",
+    "name": "Имя",
+    "namePlaceholder": "Введите имя",
+    "patronymicName": "Отчество",
+    "patronymicNamePlaceholder": "Введите отчество",
+    "gender": "Пол",
+    "genderMale": "Мужской",
+    "genderFemale": "Женский",
+    "genderOther": "Другой",
+    "dateOfBirth": "Дата рождения",
+    "phoneNumber": "Номер телефона",
+    "phoneNumberPlaceholder": "+1234567890",
+    "additionalPhone": "Дополнительный телефон",
+    "additionalPhonePlaceholder": "+1234567890",
+    "email": "Электронная почта",
+    "emailPlaceholder": "Ваша электронная почта",
+    "changePhoto": "Нажмите, чтобы изменить фото",
+    "saveButton": "Сохранить изменения",
+    "saveSuccess": "Профиль успешно сохранен!",
+    "saveFailed": "Не удалось сохранить профиль",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "middleName": "Отчество",
+    "comments": "Комментарии",
+    "firstNamePlaceholder": "Имя",
+    "lastNamePlaceholder": "Фамилия",
+    "middleNamePlaceholder": "Отчество",
+    "notes": "Заметки",
+    "notesPlaceholder": "Заметки",
+    "patientId": "ID пациента",
+    "patientIdPrefix": "СОФ/Мос/Пац-",
+    "stats": {
+      "totalAppointments": "Мои записи",
+      "totalAppointmentsDescription": "Всего записей",
+      "totalPayments": "Всего платежей",
+      "totalPaymentsDescription": "Оплачено всего",
+      "upcomingAppointments": "Ближайшие записи",
+      "upcomingAppointmentsDescription": "Скоро запланированные записи"
+    },
+    "footer": {
+      "myApplications": "Мои заявки",
+      "myApplicationsDesc": "Просмотр записей и истории консультаций",
+      "myPayments": "Мои платежи",
+      "myPaymentsDesc": "Просмотр счетов и истории оплат",
+      "myDevices": "Мои устройства",
+      "myDevicesDesc": "Управление доверенными устройствами и сессиями",
+      "logoutDesc": "Выйти из текущего аккаунта"
+    },
+    "logout": "Выйти",
+    "commentsPlaceholder": "Комментарии",
+    "imageSize": "Максимальный размер файла: 5 МБ",
+    "invalidImage": "Неверный формат файла",
+    "sections": {
+      "basicInformation": "Основная информация",
+      "contacts": "Контакты",
+      "documents": "Документы",
+      "address": "Адрес",
+      "personalData": "Личные данные",
+      "disability": "Инвалидность",
+      "additionalNotes": "Дополнительные заметки"
+    },
+    "common": {
+      "add": "Добавить",
+      "remove": "Удалить",
+      "noRecordsAddedYet": "Записи пока не добавлены.",
+      "notSet": "Не выбрано",
+      "primary": "Первичный",
+      "secondary": "Вторичный"
+    },
+    "diseaseRecords": {
+      "title": "Записи о заболеваниях",
+      "startDate": "Дата начала",
+      "endDate": "Дата окончания",
+      "diagnosis": "Диагноз",
+      "icdCode": "Код МКБ",
+      "doctor": "Врач"
+    },
+    "finalDiagnosisRecords": {
+      "title": "Записи о финальном диагнозе",
+      "date": "Дата",
+      "diagnosis": "Диагноз",
+      "icdCode": "Код МКБ",
+      "primary": "Первичный/Вторичный",
+      "doctorName": "Имя врача",
+      "jobTitle": "Должность",
+      "speciality": "Специальность"
+    },
+    "radiationDoseRecords": {
+      "title": "Записи о радиационной дозе",
+      "date": "Дата",
+      "researchType": "Тип исследования",
+      "effectiveDose": "Эффективная доза",
+      "note": "Примечание"
+    },
+    "legalRepresentatives": {
+      "title": "Законные представители",
+      "lastName": "Фамилия",
+      "firstName": "Имя",
+      "middleName": "Отчество",
+      "isCurrent": "Текущий",
+      "birthday": "Дата рождения",
+      "gender": "Пол",
+      "relationship": "Отношение",
+      "attitudeToPatient": "Отношение к пациенту",
+      "documentOfAuthority": "Документ полномочий",
+      "documentType": "Тип документа",
+      "series": "Серия",
+      "number": "Номер",
+      "whenIssued": "Когда выдан",
+      "issuedBy": "Выдан",
+      "snils": "СНИЛС",
+      "address": "Адрес",
+      "addressType": "Тип адреса",
+      "tenant": "Арендатор",
+      "subjectOfRussia": "Субъект РФ",
+      "district": "Район",
+      "city": "Город",
+      "settlement": "Поселение",
+      "street": "Улица",
+      "house": "Дом",
+      "apartment": "Квартира",
+      "state": "Состояние"
+    },
+    "maxId": "MAX ID",
+    "telegramNickname": "Ник в Telegram",
+    "telegramId": "ID Telegram",
+    "instagram": "Instagram",
+    "vk": "ВКонтакте",
+    "facebook": "Facebook",
+    "ok": "Одноклассники",
+    "contactPerson": "Имя экстренного контакта",
+    "contactPersonPhone": "Телефон экстренного контакта",
+    "subscribedToNewsletter": "Подписан на рассылку",
+    "egiszEnabled": "EGISZ включен",
+    "cmip": "CMIP",
+    "cmipDate": "Дата CMIP",
+    "cmipOrgCode": "Код организации CMIP",
+    "snils": "СНИЛС",
+    "medInsuranceOrg": "Организация медицинского страхования",
+    "socialSupportCode": "Код социальной поддержки",
+    "citizenship": "Гражданство",
+    "documentType": "Тип документа",
+    "documentSeries": "Серия документа",
+    "documentNumber": "Номер документа",
+    "documentIssuedDate": "Дата выдачи документа",
+    "departmentCode": "Код отделения",
+    "documentIssuedBy": "Выдан документ",
+    "inn": "ИНН",
+    "addressType": "Тип адреса",
+    "region": "Регион",
+    "district": "Район",
+    "city": "Город",
+    "settlement": "Населенный пункт",
+    "street": "Улица",
+    "house": "Дом",
+    "terrain": "Местность",
+    "apartment": "Квартира",
+    "postcode": "Почтовый индекс",
+    "geocoordinates": "Геокоординаты",
+    "registrationChange": "Изменение регистрации",
+    "maritalStatus": "Семейное положение",
+    "education": "Образование",
+    "employment": "Занятость",
+    "placeOfWork": "Место работы",
+    "workSpecialty": "Рабочая специальность",
+    "changePlaceOfWork": "Смена места работы",
+    "changeOfPosition": "Смена должности",
+    "disability": "Инвалидность",
+    "disabilityFrom": "Инвалидность с",
+    "disabilityTo": "Инвалидность по",
+    "disabilityIndefinitely": "Инвалидность бессрочно",
+    "invalidGroup": "Группа инвалидности",
+    "disabilityType": "Тип инвалидности",
+    "disabilityPrimaryRepeated": "Инвалидность первичная/повторная",
+    "notificationLanguage": "Язык уведомлений",
+    "errors": {
+      "fixErrors": "Пожалуйста, исправьте все ошибки перед сохранением",
+      "surname": "Фамилия обязательна",
+      "name": "Имя обязательно",
+      "gender": "Пол обязателен",
+      "dateOfBirth": "Дата рождения обязательна",
+      "invalidDateOfBirth": "Недопустимая дата рождения",
+      "futureDateOfBirth": "Дата рождения не может быть в будущем",
+      "phoneNumber": "Номер телефона обязателен",
+      "invalidPhoneNumber": "Недопустимый формат номера телефона",
+      "invalidAdditionalPhone": "Недопустимый формат дополнительного номера телефона",
+      "email": "Электронная почта обязательна",
+      "invalidEmail": "Недопустимый формат электронной почты",
+      "imageSize": "Максимальный размер файла: 5 МБ",
+      "invalidImage": "Неверный формат файла"
+    }
+  },
+  "profile_popup": {
+    "title": "Завершите ваш профиль",
+    "message": "Похоже, вы не заполнили свой профиль. Пожалуйста, завершите заполнение профиля, чтобы продолжить.",
+    "button": "Завершить профиль"
+  },
+  "appointmentDetails": {
+    "back": "Назад к записям",
+    "appointmentDetails": "Детали записи",
+    "subtitle": "Полная информация о записи и действия в одном месте.",
+    "application_id": "Идентификатор записи",
+    "date": "Дата",
+    "time": "Время",
+    "service": "Услуга",
+    "mode": "Режим",
+    "status": "Статус",
+    "entranceDiagnosis": "Первичный диагноз",
+    "briefHistory": "Краткая история",
+    "documents": "Документы",
+    "patient_email": "Email пациента",
+    "doctor_email": "Email врача",
+    "online_meeting": "Онлайн встреча",
+    "join_meeting_hint": "Используйте эту ссылку в начале консультации.",
+    "preparing_meeting": "Подготовка...",
+    "join_now": "Присоединиться к встрече",
+    "view": "Просмотреть",
+    "download": "Скачать",
+    "open": "Открыть",
+    "prescription": "Рецепт",
+    "loading": "Загрузка...",
+    "error": "Не удалось загрузить запись.",
+    "noDetails": "Детали не найдены.",
+    "no_documents": "Документы не загружены.",
+    "no_tests": "Нет доступных тестов.",
+    "no_data": "Данные не предоставлены",
+    "follow_up_title": "Последующая встреча",
+    "follow_up_text": "Рекомендована последующая запись. Пожалуйста, забронируйте прием.",
+    "book_follow_up": "Записаться на повторный прием",
+    "follow_up_id": "ID последующей записи:",
+    "uploaded": "Загружено:",
+    "service_consultation": "Консультация",
+    "service_general_consultation": "Общая консультация",
+    "service_dermatology": "Дерматология"
+  },
+  "notif_box": {
+    "common": "Общие",
+    "important": "Важные",
+    "personal_disabled": "Личные уведомления временно недоступны",
+    "loading": "Загрузка уведомлений...",
+    "no_notifications": "Уведомления не найдены",
+    "personal": "Личное",
+    "title": "Уведомления"
+  },
+  "existingAppointments": {
+    "title": "Ваши существующие записи",
+    "noAppointments": "У вас нет существующих записей.",
+    "autoClose": "Это окно закроется автоматически...",
+    "infoMessage": "У вас уже есть записи в этой специализации. Пожалуйста, отмените все существующие записи перед созданием новой.",
+    "allCancelled": "Все записи были успешно отменены!",
+    "close": "Закрыть",
+    "refreshing": "Обновление записей...",
+    "appointmentItem": {
+      "specialty": "Кардиолог",
+      "date": "Дата",
+      "time": "Время",
+      "viewDetails": "Просмотреть детали",
+      "cancel": "Отменить запись",
+      "cancelling": "Отмена...",
+      "cancelConfirm": "Вы уверены, что хотите отменить эту запись?",
+      "confirmCancel": "Да, отменить",
+      "keepAppointment": "Оставить запись",
+      "status": {
+        "confirmed": "Ваша запись подтверждена",
+        "unconfirmed": "Ваша запись требует подтверждения",
+        "awaitingPayment": "Ожидание обработки платежа",
+        "cancelled": "Эта запись была отменена",
+        "unknown": "Неизвестный статус"
+      }
+    }
+  },
+  "inface_remote_consultations": {
+    "specialty_label": "Выберите специальность",
+    "choose_specialty": "-- Выберите специальность --",
+    "choose_doctor": "-- Выберите врача --",
+    "doctor_label": "Выберите врача",
+    "appointment_mode_label": "Формат приёма",
+    "select_placeholder": "-- Выберите тип консультации --",
+    "select_doctor_first": "Сначала выберите врача",
+    "offline_option": "Очная консультация",
+    "online_option": "Удалённая консультация",
+    "clinic_label": "Клиника",
+    "clinic_option_1": "Клиника 1",
+    "clinic_option_2": "Клиника 2 (Скоро)",
+    "booking_date": "Дата записи"
+  },
+
+  "service_form": {
+    "booking_time": "Время записи",
+    "no_slots": "Нет доступных временных слотов",
+    "slot_labels": {
+      "your_appointment_unconfirmed": "Ваша запись (Не подтверждена)",
+      "your_appointment_confirmed": "Ваша запись (Подтверждена)",
+      "pay_now_warning": "⚠️ Этот слот уже зарезервирован. Вы можете подтвердить его только при оплате сейчас."
+    }
+  },
+
+  "dashboard_header": {
+    "welcome": "Добро пожаловать",
+    "greeting": "Как вы себя чувствуете сегодня?",
+    "placeholder_name": "Г-н/Г-жа Заполнитель",
+    "language_tooltip": "Сменить язык",
+    "notifications_tooltip": "Уведомления",
+    "logout_tooltip": "Выйти",
+    "language_alert": "Смена языка скоро будет доступна",
+    "notifications_alert": "Уведомления скоро будут доступны"
+  },
+
+  "consultations": {
+    "blocker": {
+      "title": "Бронирование заблокировано",
+      "message": "У вас есть существующие записи в этой специализации. Пожалуйста, сначала отмените все записи.",
+      "view_appointments": "Посмотреть записи"
+    }
+  },
+
+  "appointment": {
+    "selectFollowUp": "Выберите повторный приём",
+    "inFace": "Очная консультация",
+    "remote": "Удалённая консультация",
+    "date": "Дата",
+    "uploadedAt": "Загружено по адресу: "
+  },
+  "common": {
+    "select": "Выберите тип консультации",
+    "cancel": "Отмена",
+    "proceed": "Перейти к оплате",
+    "back": "Назад",
+    "confirm": "Подтвердить запись"
+  },
+  "order_service": {
+    "services_title": "Обслуживание заказов",
+    "services_subtitle": "Чтобы открыть описание услуги, узнать стоимость, отправить заявку - нажмите на услугу.",
+    "payment_options": "Варианты оплаты",
+    "online_payment_info": "Этот слот требует немедленной оплаты для подтверждения вашей записи.",
+    "offline_payment_info": "Вы можете оплатить сейчас или в клинике.",
+    "pay_now": "Оплатить сейчас",
+    "pay_at_clinic": "Оплатить в клинике"
+  },
+  "follow_up_modal": {
+    "loading_slots": "Загрузка доступных слотов...",
+    "appointment_details": "Детали записи",
+    "payment_secure": "Безопасная онлайн-оплата",
+    "payment_clinic": "Оплатить при прибытии",
+    "processing": "Обработка...",
+    "slot_warning": "⚠️ Этот слот уже зарезервирован. Вы можете подтвердить его только при оплате сейчас."
+  },
+
+  "appointment_id": "ID записи",
+  "payment_status": "Статус оплаты",
+  "paid": "Оплачено",
+  "pay_now": "Оплатить сейчас",
+  "status": {
+    "paid": "Оплачено",
+    "completed": "Завершено",
+    "pending": "В ожидании",
+    "failed": "Не удалось",
+    "processing": "Обработка"
+  },
+
+  "payment_card": {
+    "appointment_id": "ID записи:",
+    "payment_status": "Статус:",
+    "paid": "Оплачено",
+    "pay_now": "Оплатить сейчас",
+    "paymentSummary": "Сводка оплаты",
+    "items": "Товары",
+    "subtotal": "Промежуточный итог",
+    "tax": "Налог (5%)",
+    "discount": "Скидка",
+    "total": "Итого",
+    "confirmPay": "Подтвердить и оплатить",
+    "close": "Закрыть"
+  },
+
+  "forgotPassword": {
+    "title": "Сброс пароля",
+    "instructions": "Введите ваш email, и мы вышлем вам ссылку для сброса пароля",
+    "back": "Назад к входу",
+    "send": "Отправить ссылку",
+    "sending": "Отправляем...",
+    "backToLogin": "Вернуться к входу",
+    "success": {
+      "title": "Проверьте почту",
+      "message": "Мы отправили ссылку для сброса пароля на {email}",
+      "emailSent": "Письмо для сброса пароля отправлено.",
+      "note": "Если вы не видите письмо, проверьте папку спам."
+    },
+    "errors": {
+      "emailRequired": "Пожалуйста, введите действительный email",
+      "general": "Не удалось отправить письмо для сброса"
+    }
+  },
+
+  "resetPassword": {
+    "title": "Сброс пароля",
+    "instructions": "Введите новый пароль для",
+    "newPasswordLabel": "Новый пароль",
+    "newPasswordPlaceholder": "Введите новый пароль",
+    "confirmPasswordLabel": "Подтвердите пароль",
+    "confirmPasswordPlaceholder": "Подтвердите ваш новый пароль",
+    "button": "Сбросить пароль",
+    "resetting": "Сбрасываем...",
+    "backToLogin": "Вернуться к входу",
+    "success": "Пароль успешно сброшен!",
+    "invalidTokenTitle": "Недействительная ссылка",
+    "errors": {
+      "form": "Исправьте ошибки в форме",
+      "passwordMismatch": "Пароли не совпадают",
+      "general": "Не удалось сбросить пароль",
+      "invalidToken": "Недействительная или устаревшая ссылка для сброса"
+    }
+  },
+  "meeting_room": {
+    "title": "Комната встречи",
+    "back": "Назад",
+    "refresh": "Обновить",
+    "copy": "Скопировать ссылку",
+    "open_new_tab": "Открыть в новой вкладке",
+    "connecting": "Подключение к встрече...",
+    "load_error": "Не удалось загрузить встречу. Обновите или откройте в новой вкладке.",
+    "missing_title": "Ссылка на встречу отсутствует",
+    "missing_desc": "Вернитесь и сгенерируйте ссылку на встречу."
+  },
+  "bookAppointment": {
+    "promo_text": "Запишитесь к лучшим специалистам за считанные минуты.",
+    "promo_early_text": "Ранний доступ к бронированию избранных специалистов.",
+    "promo_book_now": "Записаться сейчас",
+    "promo_learn_more": "Узнать больше",
+    "promo_filter_label": "Специальное предложение",
+    "step_select": "Выбор",
+    "step_verification": "Проверка",
+    "step_confirm": "Подтвердить",
+    "search_specialty": "Поиск специальности...",
+    "search_doctor": "Поиск врача...",
+    "no_results": "Ничего не найдено.",
+    "no_doctors": "Нет доступных врачей.",
+    "select_doctor_hint": "Пожалуйста, выберите врача, чтобы увидеть доступные слоты.",
+    "available_slots": "Доступные слоты",
+    "notice_title": "Пожалуйста, приходите вовремя",
+    "notice_arrive": "Прибудьте минимум за 10 минут до приема.",
+    "notice_call": "Если у вас есть вопросы, звоните",
+    "notice_thanks": "Спасибо, что выбрали наш сервис.",
+    "next": "Далее",
+    "phone_title": "Проверка телефона",
+    "phone_sub": "Введите номер телефона, чтобы получить код подтверждения.",
+    "phone_placeholder": "Введите номер телефона",
+    "otp_placeholder": "Введите код OTP",
+    "send_otp": "Отправить OTP",
+    "verify_continue": "Проверить и продолжить",
+    "sending": "Отправка...",
+    "resend_otp": "Отправить снова",
+    "phone_verified_status": "Телефон подтвержден",
+    "profile_title": "Данные пациента",
+    "profile_sub": "Заполните личные данные для завершения бронирования.",
+    "label_phone": "Номер телефона",
+    "label_last_name": "Фамилия",
+    "placeholder_last": "Введите фамилию",
+    "label_first_name": "Имя",
+    "placeholder_first": "Введите имя",
+    "label_middle_name": "Отчество",
+    "placeholder_middle": "Введите отчество",
+    "label_dob": "Дата рождения",
+    "book_appointment": "Записаться на прием",
+    "success_title": "Запись сделана!",
+    "success_sub": "Ваша запись к {{doctor}} успешно создана.",
+    "success_for": "на",
+    "success_at": "в",
+    "close": "Закрыть",
+    "err_missing_info": "Пожалуйста, выберите все данные.",
+    "err_load_specialties": "Не удалось загрузить специальности.",
+    "err_load_doctors": "Не удалось загрузить врачей.",
+    "err_load_availability": "Не удалось загрузить доступность.",
+    "err_invalid_phone": "Пожалуйста, введите корректный номер телефона.",
+    "otp_sent": "OTP отправлен на {{phone}}.",
+    "err_send_otp": "Не удалось отправить OTP.",
+    "err_enter_otp": "Пожалуйста, введите код OTP.",
+    "err_invalid_otp": "Неверный код OTP.",
+    "err_book": "Ошибка при бронировании. Попробуйте еще раз.",
+    "err_first_name": "Пожалуйста, введите фамилию.",
+    "err_last_name": "Пожалуйста, введите имя.",
+    "err_dob": "Пожалуйста, введите дату рождения.",
+    "err_create_book": "Не удалось создать бронь. Попробуйте снова.",
+    "application_id": "Номер заявки",
+    "status": "Статус",
+    "status_new": "Новый",
+    "status_paid": "Оплачено",
+    "status_cancelled": "Отменено",
+    "status_unconfirmed": "Не подтверждено",
+    "status_confirmed": "Подтверждено",
+    "status_pending_payment": "Ожидает оплату",
+    "status_awaiting_for_payment": "Ожидает оплату",
+    "status_completed": "Завершено",
+    "status_pending": "В ожидании",
+    "status_awaiting": "Ожидает",
+    "service": "Услуга",
+    "service_consultation": "Консультация",
+    "service_general_consultation": "Общая консультация",
+    "service_dermatology": "Дерматология",
+    "service_pathologica_service": "Патологическая услуга",
+    "service_skin_health_check": "Проверка здоровья кожи",
+    "date": "Дата",
+    "time": "Время",
+    "no_appointments": "У вас нет записей.",
+    "not_set": "Не указано",
+    "status_unknown": "Неизвестно",
+    "no_id": "Нет ID",
+    "no_service_name": "Нет названия услуги",
+    "verified_pill":"Проверенный"
+  },
+    "booking": {
+      "form": {
+        "title": "Заполните форму для записи на раннюю диагностику"
+      },
+      "success": {
+        "paymentTitle": "Оплата прошла успешно!",
+        "formTitle": "Заявка успешно отправлена!",
+        "paymentDesc": "Спасибо за оплату! Ваша запись на раннюю диагностику подтверждена.",
+        "formDesc": "Страница оплаты открыта в новой вкладке. Если окно не открылось, используйте кнопки ниже.",
+        "paymentLinkTitle": "Ссылка для оплаты",
+        "openPayment": "Открыть оплату",
+        "copy": "Копировать",
+        "copied": "Скопировано!",
+        "nextSteps": "Что дальше?",
+        "step1": "Завершите оплату по ссылке выше",
+        "step2": "Проверьте вашу почту на наличие подтверждения",
+        "step3": "Ожидайте звонка нашего специалиста для подтверждения",
+        "step4": "Подготовьте необходимые документы к визиту"
+      },
+      "personal": {
+        "title": "Персональная информация",
+        "lastName": "Фамилия",
+        "firstName": "Имя",
+        "middleName": "Отчество",
+        "dob": "Дата рождения",
+        "appointmentDate": "Желаемая дата первого визита (не обязательно для заполнения)",
+        "email": "Электронная почта",
+        "phone": "Телефон"
+      },
+      "placeholders": {
+        "lastName": "Введите фамилию",
+        "firstName": "Введите имя",
+        "middleName": "Введите отчество",
+        "datePlaceholder": "ДД/ММ/ГГГГ",
+        "appointmentDate": "Выберите желаемую дату приема",
+        "phone": "Введите номер телефона"
+      },
+      "errors": {
+        "fillAll": "Пожалуйста, заполните все обязательные поля",
+        "lastName": "Пожалуйста, введите фамилию",
+        "firstName": "Пожалуйста, введите имя",
+        "dob": "Пожалуйста, укажите дату рождения",
+        "appointmentDate": "Пожалуйста, выберите желаемую дату записи",
+        "email": "Пожалуйста, введите почту",
+        "emailInvalid": "Пожалуйста, введите корректную почту",
+        "phone": "Пожалуйста, введите номер телефона",
+        "consent": "Необходимо дать согласие на обработку персональных данных",
+        "networkError": "Ошибка сети. Проверьте соединение с интернетом и попробуйте ещё раз.",
+        "timeout": "Запрос превысил время ожидания. Пожалуйста, попробуйте ещё раз.",
+        "submitFailed": "Ошибка при отправке заявки. Пожалуйста, попробуйте ещё раз."
+      },
+      "package": {
+        "title": "Выберите пакет",
+        "addons": "Дополнительные опции",
+        "upgrade": "Апгрейд",
+        "oncosearch": "ОНКОПОИСК",
+        "insurance": "ОНКОСТРАХОВАНИЕ",
+        "addonNote": "Дополнение к <span class='text-red-600'>«ПРЕДИКТ</span>",
+        "inClinic": "в клинике",
+        "standard": "стандартная",
+        "autoIncluded": "Автоматически включён с <span class='text-red-600'>«ПРЕДИКТ</span>+<span» class='text-red-600'>5»</span>",
+        "upgradeDesc": "Расширенная диагностика + онкопоиск"
+      },
+      "addons": {
+        "ct": {
+          "name": "НДКТ грудной клетки",
+          "note": "без динамической оценки с предыдущим исследованием"
+        },
+        "mri": {
+          "name": "МРТ головного мозга ",
+          "note": "без динамической оценки с предыдущим исследованием"
+        },
+        "mammography": {
+          "name": "Маммография с томосинтезом",
+          "note": "без динамической оценки с предыдущим исследованием"
+        },
+        "endoscopy": {
+          "name": "Гастроскопия + колоноскопия"
+        }
+      },
+      "consent": {
+        "main": "Даю согласие",
+        "processing": "на обработку персональных данных",
+        "prefix": "Даю",
+        "link": "согласие",
+        "middle": "на обработку персональных данных и",
+        "policy": "политикой конфиденциальности",
+        "marketing": "Даю согласие на получение информационных сообщений, рекламных и рекламно-информационных предложений"
+      },
+      "coupon": {
+        "placeholder": "Промокод",
+        "apply": "Применить",
+        "applying": "...",
+        "applied": "Промокод применён!",
+        "invalid": "Неверный промокод.",
+        "failed": "Не удалось проверить промокод.",
+        "discount": "Скидка"
+
+      },
+      "summary": {
+        "title": "Итого заказа",
+        "package": "Пакет",
+        "addons": "Дополнительно",
+        "total": "Итого",
+        "vat": "НДС 0%"
+      },
+      "common": {
+        "close": "Закрыть",
+        "cancel": "Отмена",
+        "pay": "Перейти к оплате",
+        "loading": "Отправка...",
+        "more": "(Подробнее)"
+      }
+    },
+  "early": {
+    "page": {
+      "title": "Ранняя диагностика",
+      "subtitle": "Запишитесь на профилактические осмотры и услуги ранней диагностики на одной удобной странице."
+    },
+    "pricing": {
+      "predict": {
+        "title": "PREDICT",
+        "subtitle": "Комплексный пакет ранней диагностики"
+      },
+      "learnMore": "Подробнее",
+      "upgrade": {
+        "title": "PREDICT +5",
+        "featuresTitle": "Особенности пакета",
+        "features": [
+          "Расширенный диагностический пакет",
+          "Приоритетное рассмотрение отчета",
+          "Расширенная оценка рисков",
+          "Включена консультация врача"
+        ],
+        "oncosearchTitle": "Онкопоиск",
+        "oncosearch": [
+          "Скрининг риска рака",
+          "Анализ молекулярных маркеров",
+          "Целевой поиск опухоли"
+        ],
+        "benefitsTitle": "Преимущества",
+        "benefits": [
+          "Ранняя диагностика заболеваний",
+          "Улучшенные результаты лечения",
+          "Комплексное медицинское сопровождение",
+          "Доступ к специалистам"
+        ],
+        "extraTitle": "Дополнительные преимущества",
+        "extra": [
+          "Персональные медицинские рекомендации",
+          "Анализ экспертов в течение 24 часов",
+          "Приоритетное бронирование"
+        ]
+      },
+      "insurance": {
+        "title": "Страхование",
+        "content": [
+          "Страхование от рака для вашего спокойствия",
+          "Финансовая поддержка диагностических процедур",
+          "Помощь на каждом этапе"
+        ]
+      }
+    },
+    "booking": {
+      "form": {
+        "title": "Заполните форму для записи на раннюю диагностику"
+      },
+      "success": {
+        "paymentTitle": "Оплата прошла успешно!",
+        "formTitle": "Заявка успешно отправлена!",
+        "paymentDesc": "Спасибо за оплату! Ваша запись на раннюю диагностику подтверждена.",
+        "formDesc": "Страница оплаты открыта в новой вкладке. Если окно не открылось, используйте кнопки ниже.",
+        "paymentLinkTitle": "Ссылка для оплаты",
+        "openPayment": "Открыть оплату",
+        "copy": "Копировать",
+        "copied": "Скопировано!",
+        "nextSteps": "Что дальше?",
+        "step1": "Завершите оплату по ссылке выше",
+        "step2": "Проверьте вашу почту на наличие подтверждения",
+        "step3": "Ожидайте звонка нашего специалиста для подтверждения",
+        "step4": "Подготовьте необходимые документы к визиту"
+      },
+      "personal": {
+        "title": "Персональная информация",
+        "lastName": "Фамилия",
+        "firstName": "Имя",
+        "middleName": "Отчество",
+        "dob": "Дата рождения",
+        "appointmentDate": "Желаемая дата первого визита (не обязательно для заполнения)",
+        "email": "Электронная почта",
+        "phone": "Телефон"
+      },
+      "placeholders": {
+        "lastName": "Введите фамилию",
+        "firstName": "Введите имя",
+        "middleName": "Введите отчество",
+        "datePlaceholder": "ДД/ММ/ГГГГ",
+        "appointmentDate": "Выберите желаемую дату приема",
+        "phone": "Введите номер телефона"
+      },
+      "errors": {
+        "fillAll": "Пожалуйста, заполните все обязательные поля",
+        "lastName": "Пожалуйста, введите фамилию",
+        "firstName": "Пожалуйста, введите имя",
+        "dob": "Пожалуйста, укажите дату рождения",
+        "appointmentDate": "Пожалуйста, выберите желаемую дату записи",
+        "email": "Пожалуйста, введите почту",
+        "emailInvalid": "Пожалуйста, введите корректную почту",
+        "phone": "Пожалуйста, введите номер телефона",
+        "consent": "Необходимо дать согласие на обработку персональных данных",
+        "networkError": "Ошибка сети. Проверьте соединение с интернетом и попробуйте ещё раз.",
+        "timeout": "Запрос превысил время ожидания. Пожалуйста, попробуйте ещё раз.",
+        "submitFailed": "Ошибка при отправке заявки. Пожалуйста, попробуйте ещё раз."
+      },
+      "package": {
+        "title": "Выберите пакет",
+        "addons": "Дополнительные опции",
+        "upgrade": "Апгрейд",
+        "oncosearch": "ОНКОПОИСК",
+        "insurance": "ОНКОСТРАХОВАНИЕ",
+        "addonNote": "Дополнение к <span class='text-red-600'>«ПРЕДИКТ</span>",
+        "inClinic": "в клинике",
+        "standard": "стандартная",
+        "autoIncluded": "Автоматически включён с <span class='text-red-600'>«ПРЕДИКТ</span>+<span» class='text-red-600'>5»</span>",
+        "upgradeDesc": "Расширенная диагностика + онкопоиск"
+      },
+      "addons": {
+        "ct": {
+          "name": "НДКТ грудной клетки",
+          "note": "без динамической оценки с предыдущим исследованием"
+        },
+        "mri": {
+          "name": "МРТ головного мозга ",
+          "note": "без динамической оценки с предыдущим исследованием"
+        },
+        "mammography": {
+          "name": "Маммография с томосинтезом",
+          "note": "без динамической оценки с предыдущим исследованием"
+        },
+        "endoscopy": {
+          "name": "Гастроскопия + колоноскопия"
+        }
+      },
+      "consent": {
+        "main": "Даю согласие",
+        "processing": "на обработку персональных данных",
+        "prefix": "Даю",
+        "link": "согласие",
+        "middle": "на обработку персональных данных и",
+        "policy": "политикой конфиденциальности",
+        "marketing": "Даю согласие на получение информационных сообщений, рекламных и рекламно-информационных предложений"
+      },
+      "coupon": {
+        "placeholder": "Промокод",
+        "apply": "Применить",
+        "applying": "...",
+        "applied": "Промокод применён!",
+        "invalid": "Неверный промокод.",
+        "failed": "Не удалось проверить промокод.",
+        "discount": "Скидка"
+      },
+      "summary": {
+        "title": "Итого заказа",
+        "package": "Пакет",
+        "addons": "Дополнительно",
+        "total": "Итого",
+        "vat": "НДС 0%"
+      },
+      "common": {
+        "close": "Закрыть",
+        "cancel": "Отмена",
+        "pay": "Перейти к оплате",
+        "loading": "Отправка...",
+        "more": "(Подробнее)"
+      }
+    }
+  }
+}

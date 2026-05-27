@@ -1,0 +1,50 @@
+{
+  "name": "healthdirect",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "axios": "^1.10.0",
+    "country-data": "^0.0.31",
+    "framer-motion": "^12.19.2",
+    "i18next": "^25.2.1",
+    "jspdf": "^3.0.1",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.511.0",
+    "moment-timezone": "^0.6.0",
+    "multer": "^2.0.1",
+    "phone-number-input": "^1.0.16",
+    "react": "^19.1.0",
+    "react-country-flag": "^3.1.0",
+    "react-datepicker": "^8.4.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "^15.5.3",
+    "react-icons": "^5.5.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-phone-number-input": "^3.4.16",
+    "react-router": "^7.6.2",
+    "react-router-dom": "^7.6.2",
+    "react-toastify": "^11.0.5",
+    "swiper": "^11.2.8",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
+  }
+}

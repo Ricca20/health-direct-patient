@@ -1,0 +1,22 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;        
+  background: #eff4f8;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+/* Optional: if Header is fixed, add padding-top to main */
+.layout-main {
+  margin-top: 0.5rem;        
+  margin-left: 0;
+  flex: 1;
+  min-height: 100vh;                    
+}
+
+@media (min-width: 1280px) {
+  .layout-main {
+    margin-left: 4rem;        
+    margin-top: 0.5rem;
+  }
+}
