@@ -52,6 +52,11 @@ const isAllowedOrigin = (origin) => {
     return true;
   }
 
+  // Allow localhost (like http://localhost:8081 for Expo Web) and standard local LAN IPs for dev testing
+  if (/^http:\/\/(localhost|127\.0\.0\.1|192\.168\.\d+\.\d+|172\.(1[6-9]|2\d|3[0-1])\.\d+\.\d+|10\.\d+\.\d+\.\d+)(:\d+)?$/i.test(origin)) {
+    return true;
+  }
+
   return /^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(origin);
 };
 
