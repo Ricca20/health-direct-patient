@@ -7,7 +7,7 @@ const User = require("../models/User");
 const Patient = require("../models/Patient");
 const { generateTokens } = require("./token");
 const sendEmail = require("../utils/sendEmail");
-const PatientOtp = require("../models/patientOtpSchema");
+const PatientOtp = require("../models/PatientOtpSchema");
 const { upsertDeviceSession } = require("../utils/deviceSessionService");
 
 const router = express.Router();
