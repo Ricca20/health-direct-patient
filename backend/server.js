@@ -40,12 +40,33 @@ app.use(cookieParser());
 
 
 // CORS config
+const allowedOrigins = [
+  process.env.FRONTEND_URL,
+  process.env.FRONTEND_URL_2,
+  process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null,
+  "http://localhost:5173",
+].filter(Boolean);
+
+const isAllowedOrigin = (origin) => {
+  if (allowedOrigins.includes(origin)) {
+    return true;
+  }
+
+  return /^https:\/\/[a-z0-9-]+\.vercel\.app$/i.test(origin);
+};
+
 const corsOptions = {
-  origin: [
-    process.env.FRONTEND_URL,
-    process.env.FRONTEND_URL_2,
-    "http://localhost:5173",
-  ].filter(Boolean),
+  origin(origin, callback) {
+    if (!origin) {
+      return callback(null, true);
+    }
+
+    if (isAllowedOrigin(origin)) {
+      return callback(null, true);
+    }
+
+    return callback(new Error(`CORS blocked for origin: ${origin}`));
+  },
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"],
   allowedHeaders: [
     "Content-Type",
@@ -68,6 +89,7 @@ const corsOptions = {
   maxAge: 86400,
 };
 app.use(cors(corsOptions));
+app.options("*", cors(corsOptions));
 
 
 
